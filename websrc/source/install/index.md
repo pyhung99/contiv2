@@ -6,15 +6,15 @@ description: |-
   Welcome to the Contiv documentation!
 ---
 
-# [User Guides](user_guides)
+# [User Guides](/install/user_guides)
 Find information about Contiv design, archtecture, and components, as well as getting started
 guides.
 
-# [API Reference](api)
+# [API Reference](/install/reference)
 REST APIs. Tip: The command line interface (CLI) mirrors the APIs, so you can try out Contiv
 commands without writing a program.
 
-# [Samples](samples)
+# [Samples](/install/samples)
 Short but practical implementations to help you get started.
 
 # Support

@@ -8,9 +8,9 @@ description: |-
 
 # Networking with Contiv
 
-## [Terminology and Concepts](concepts/index.md)
+## [Terminology and Concepts](/install/user_guides/getting_started/networking/concepts)
 
-## Networks
+## [Networks](/install/user_guides/getting_started/networking/networks)
 
 ## Policies
 
@@ -20,7 +20,7 @@ description: |-
 
 ### Prioritization
 
-## Load Balancing
+## [Load Balancing](/install/user_guides/getting_started/networking/load_balancing.html)
 
 ### Services and Service Providers
 A service is an abstraction that describes a network connection on one or more ports to a cluster of containers.
