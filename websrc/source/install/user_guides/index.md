@@ -6,14 +6,14 @@ description: |-
   Contiv User Guides
 ---
 
-# [Getting Started](user_guides/getting_started)
+# [Getting Started](/install/user_guides/getting_started)
 How to get up and running quickly.
 
-# [Network](user_guides/networking)
+# [Network](/install/user_guides/networking)
 In-depth discussion of Contiv Network.
 
-# [Storage](user_guides/storage)
+# [Storage](/install/user_guides/storage)
 All about Contiv Storage.
 
-# [Cluster](user_guides/cluster)
+# [Cluster](/install/user_guides/cluster)
 How to build, commission, and decommission clusters using Swarm.

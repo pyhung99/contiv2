@@ -8,6 +8,4 @@ description: |-
 
 # Getting Started with Contiv Storage
 
-## Contiv Storage With Swarm
-To get started with Contiv Storage using Docker Swarm, , see the 
-[documentation](/install/user_guides/getting_started/storage/swarm.html).
+## [Contiv Storage With Swarm](/install/user_guides/getting_started/storage/swarm.html)

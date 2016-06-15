@@ -8,16 +8,14 @@ description: |-
 
 # Getting Started with Network Topology Using Contiv
 
-## [Containers Networking 101](networking101.md)
+## [Containers Networking 101](/install/user_guides/getting_started/network_topologies/networking101.html)
 
-## [Native Routed Deployment](native_routed.md)
+## [Native Routed Deployment](/install/user_guides/getting_started/network_topologies/native_routed.html)
 
-## [Native Bridged Deployment](native_bridged.md)
+## [Native Bridged Deployment](/install/user_guides/getting_started/network_topologies/native_bridged.html)
 
-## [Openstack Deployment](openstack.md)
+## [Openstack Deployment](/install/user_guides/getting_started/network_topologies/openstack.html)
 
-## [Cloud Deployment](cloud.md)
+## [Cloud Deployment](/install/user_guides/getting_started/network_topologies/cloud.html)
 
-## [Vagrant setup (mini demo on laptop)](vagrant.md)
-
-## Contiv Networking with Cisco ACI
+## [Vagrant setup (mini demo on laptop)](/install/user_guides/getting_started/network_topologies/vagrant.html)
