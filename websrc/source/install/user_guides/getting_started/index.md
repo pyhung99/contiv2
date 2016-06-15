@@ -1,7 +1,7 @@
 ---
 layout: "install"
 page_title: "Getting Started"
-sidebar_current: "install"
+sidebar_current: "getting-started"
 description: |-
   Getting Started
 ---
@@ -19,4 +19,3 @@ Working with different back-end services for storage.
 
 # [Community Talks](/install/user_guides/getting_started/community_talks)
 Presentations from past conferences and workshops.
-

@@ -1,7 +1,7 @@
 ---
 layout: "install"
 page_title: "Documentation"
-sidebar_current: "docs-home"
+sidebar_current: "network-topologies"
 description: |-
   Welcome to the Contiv documentation!
 ---

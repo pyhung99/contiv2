@@ -1,7 +1,7 @@
 ---
 layout: "install"
 page_title: "Kubernetes cluster"
-sidebar_current: "docs-home"
+sidebar_current: "getting-started-k8s"
 description: |-
   Setting up kubernetes cluster.
 ---
