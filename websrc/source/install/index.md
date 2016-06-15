@@ -10,7 +10,7 @@ description: |-
 Find information about Contiv design, archtecture, and components, as well as getting started
 guides.
 
-# [API Reference](api)
+# [API Reference](reference)
 REST APIs. Tip: The command line interface (CLI) mirrors the APIs, so you can try out Contiv
 commands without writing a program.
 
