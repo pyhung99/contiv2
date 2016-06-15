@@ -1,5 +1,5 @@
 ---
-layout: "docs"
+layout: "install"
 page_title: "IP Address Management"
 sidebar_current: "docs-home"
 description: |-

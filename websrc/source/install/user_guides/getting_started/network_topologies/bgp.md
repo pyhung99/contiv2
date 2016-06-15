@@ -1,5 +1,5 @@
 ---
-layout: "docs"
+layout: "install"
 page_title: "Contiv with BGP"
 sidebar_current: "docs-home"
 description: |-

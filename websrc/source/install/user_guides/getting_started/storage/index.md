@@ -1,5 +1,5 @@
 ---
-layout: "docs"
+layout: "install"
 page_title: "Getting Started with Contiv Storage"
 sidebar_current: "install"
 description: |-

@@ -1,5 +1,5 @@
 ---
-layout: "docs"
+layout: "install"
 page_title: "Contiv Native Routed Deployment"
 sidebar_current: "docs-home"
 description: |-

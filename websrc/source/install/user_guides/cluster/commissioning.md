@@ -1,5 +1,5 @@
 ---
-layout: "docs"
+layout: "install"
 page_title: "Commissioning and Decommissioning"
 sidebar_current: "docs-home"
 description: |-

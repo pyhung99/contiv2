@@ -20,7 +20,7 @@
     
   </head>
 
-  <body id="page-ACI setup" class=" page-ACI setup layout-docs page-sub">
+  <body id="page-ACI setup" class=" page-ACI setup layout-install page-sub">
 
 <div id="header" class="navbar-static-top">
   <div class="container">
@@ -105,18 +105,162 @@ GitHub</a></li>
 	<div class="row">
 		<div class="col-md-3 col-sm-3 col-xs-12">
 					<div class="docs-sidebar hidden-print affix-top" role="complementary">
+			<hr><p>
+			User Guide
 			<ul class="nav docs-sidenav">
-				<li class="active">
-					<a href="/docs/index.html">Documentation Home</a>
-				</li>
-
 				<li>
-					<a href="/docs/netplugin.html">Contiv Network</a>
-				</li>
+					<a data-toggle="collapse" href="#collapse1000" href="/install/user_guides/getting_started/index.html">Getting Started ...</a>
+						<div id="collapse1000" class="panel-collapse collapse">
+						
+						<ul class="nav nav-visible">
+						<li>
 
-				<li>
-					<a href="/docs/volplugin.html">Contiv Storage</a>
-                </li>
+							<a data-toggle="collapse" href="#collapse1100" href="/install/user_guides/getting_started/networking/index.html">Networking ... </a>
+							<div id="collapse1100" class="panel-collapse collapse">
+									<ul>
+										<li><a href="/install/user_guides/getting_started/networking/swarm.html">Docker Swarm</a><br></li>
+										<li><a href="/install/user_guides/getting_started/networking/k8s.html">Kubernetes</a><br></li>
+										<li><a href="/install/user_guides/getting_started/networking/mesos.html">Mesos</a><br></li>
+										<li><a href="/install/user_guides/getting_started/networking/nomad.md">Nomad</a><br></li>
+									</ul>
+							</div>
+						</li>
+						<li>
+							<a data-toggle="collapse" href="#collapse1200" href="/install/user_guides/getting_started/network_topologies/index.html">Network Topologies ... </a>
+							<div id="collapse1200" class="panel-collapse collapse">
+								<ul>
+									<li><a href="/install/user_guides/getting_started/network_topologies/native_routed.html">Native Routing</a></li>
+									<li><a href="/install/user_guides/getting_started/network_topologies/native_bridged.html">Native Bridging</a></li>
+									<li><a href="/install/user_guides/getting_started/network_topologies/openstack.html">Openstack Deployment</a></li>
+									<li><a href="/install/user_guides/getting_started/network_topologies/cloud.html">Cloud Deployment</a></li>
+									<li><a href="/install/user_guides/getting_started/network_topologies/vagrant.html">Vagrant Setup</a></li>
+									
+									<li><a href="install/user_guides/getting_started/network_topologies/network_tutorial.html">Containers Networking Tutorial</a></li>
+								</ul>
+							</div>
+						</li>
+						<li>
+						<a data-toggle="collapse" href="#collapse1300" href="/install/user_guides/getting_started/storage/index.html">Storage ... </a>
+							<div id="collapse1300" class="panel-collapse collapse">
+								<ul>
+									<li><a href="/install/user_guides/getting_started/storage/swarm.html">Docker Swarm</a></li>
+								</ul>
+							</div>
+						</li>
+						<li>
+						<a data-toggle="collapse" href="#collapse1400" href="/install/user_guides/getting_started/storage_systems/index.html">Storage Systems ... </a>
+							<div id="collapse1400" class="panel-collapse collapse">
+								<ul>
+									<li><a href="/install/user_guides/getting_started/storage/ceph.html">Ceph</a></li>
+									<li><a href="/install/user_guides/getting_started/storage/nfs.html">NFS</a></li>
+
+								</ul>
+							</div>
+						</li>
+						<li>
+						<a data-toggle="collapse" href="#collapse1500" href="/install/user_guides/getting_started/community_talks/index.html">Community Talks ... </a>
+							<div id="collapse1500" class="panel-collapse collapse">
+								<ul>
+									<li><a href="https://www.youtube.com/playlist?list=PL2k86RlAekM_g6csRwSRQAWvln5SmgicN">YouTube Links</a></li>
+								</ul>
+							</div>
+						</li>
+
+					</ul>
+				</div>
+					<a data-toggle="collapse" href="#collapse2000" href="/install/user_guides/networking/index.html">Networking ...</a>
+					<div id="collapse2000" class="panel-collapse collapse">
+
+						<ul class="nav nav-visible">
+							<li><a href="/install/user_guides/networking/concepts.html">Terminology</a></li>
+							<li><a href="/install/user_guides/networking/networks.html">Networks</a></li>
+							<li><a href="/install/user_guides/networking/tenants.html">Tenants</a></li>
+							<li>
+								<a data-toggle="collapse" href="#collapse2100" href="/install/user_guides/networking/policies.html">Policies ... </a></li>
+									<div id="collapse2100" class="panel-collapse collapse">
+										<ul>
+											<li><a href="/install/user_guides/networking/policies.html#Security">Security</a></li>
+											<li><a href="/install/user_guides/networking/policies.html#Bandwidth">Bandwidth</a></li>
+											<li><a href="/install/user_guides/networking/policies.html#Prioritization">Prioritization</a></li>
+											<li><a href="/install/user_guides/networking/policies.html#Loadbalancing">Loadbalancing</a></li>
+										</ul>
+									</div>
+							<li>
+								<a data-toggle="collapse" href="#collapse2200" href="/install/user_guides/getting_started/networking/external_connectivity.html">External Connectivity ... </a>
+								<div id="collapse2200" class="panel-collapse collapse">
+									<ul>
+										<li><a href="/install/user_guides/getting_started/networking/external_connectivity.html#Rerouted_Network">Rerouted Network</a></li>
+										<li><a href="/install/user_guides/getting_started/networking/external_connectivity.html#Bridged_Network">Bridged Network</a></li>
+										<li><a href="/install/user_guides/getting_started/networking/external_connectivity.html#Overlay_Cloud_Network">Overlay Cloud Network</a></li>
+										<li><a href="/install/user_guides/getting_started/networking/external_connectivity.html#Cisco_ACI">Cisco ACI</a></li>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li><a href="/install/user_guides/getting_started/networking/service_discovery.html">Service Discovery</a></li>
+							<li><a href="/install/user_guides/getting_started/networking/ipam.html">IP Address Management</a></li>
+							<li>
+							<a data-toggle="collapse" href="#collapse2300" href="/install/user_guides/getting_started/networking/hybrid_workloads.html">Hybrid Workloads ... </a></li>
+								<div id="collapse2300" class="panel-collapse collapse">
+								<ul>
+									<li><a href="/install/user_guides/getting_started/networking/hybrid_workloads.html#Providing_Connectivity">Providing Connectivity</a></li>
+									<li><a href="/install/user_guides/getting_started/networking/hybrid_workloads.html#Applying_Policies">Applying Policies</a></li>
+								</ul>
+						</ul>
+					</div>
+					<a data-toggle="collapse" href="#collapse3000" href="/install/user_guides/getting_started/storage/index.html">Storage ...</a>
+					<div id="collapse3000" class="panel-collapse collapse">
+					
+						<ul class="nav nav-visible">
+							<li><a href="/install/user_guides/getting_started/storage/concepts.html">Terminology</a></li>
+							<li>
+								<a data-toggle="collapse" href="#collapse3100" href="/install/user_guides/getting_started/storage/policies.html">Policies ...</a></li>
+								<div id="collapse3100" class="panel-collapse collapse">
+									<ul>
+										<li><a href="/install/user_guides/getting_started/storage/policies/allocation.html">Allocation</a></li>
+										<li><a href="/install/user_guides/getting_started/storage/policies/rate_limiting.html">IOPs Rate Limiting</a></li>
+										<li><a href="/install/user_guides/getting_started/storage/policies/snapshots.html">Snapshots</a></li>
+										<li><a href="/install/user_guides/getting_started/storage/policies/filesystem.html">FileSystem</a></li>
+										</li>
+									</ul>
+								</div>
+							<li><a href="/install/user_guides/getting_started/storage/ceph.html">Ceph</a></li>
+							<li><a href="/install/user_guides/getting_started/storage/nfs.html">NFS</a></li>
+						</ul></div>
+
+					<a data-toggle="collapse" href="#collapse4000" href="/install/user_guides/getting_started/index.html">Cluster ...</a>
+					<div id="collapse4000" class="panel-collapse collapse">
+					<ul class="nav nav-visible">
+							<li><a href="/install/user_guides/getting_started/concepts.html">Terminology</a></li>
+							<li><a href="/install/user_guides/getting_started/discovery.html">Discovery</a></li>
+							<li><a href="/install/user_guides/getting_started/commissioning.html">Commissioning</a></li>
+							<li><a href="/install/user_guides/getting_started/decommissioning.html">Decommissioning</a></li>
+						</ul></div>
+				</li>
+				<hr><p>
+				Reference
+					<ul class="nav nav-visible">
+						<li><a href="/install/html">Network API Reference</a><br></li>
+						<li><a href="/install/.html">Storage API Reference</a><br></li>
+						<li><a href="/install/.html">Cluster API Reference</a><br></li>
+					</ul>
+				<hr><p>
+				Examples
+					<ul class="nav nav-visible">
+						<li><a href="/install/.html">Contiv Example 1</a><br></li>
+						<li><a href="/install/.html">Contiv Example 2</a><br></li>
+						<li><a href="/install/.html">Contiv Example 3</a><br></li>
+					</ul>
+				<hr><p>
+				Support
+					<ul class="nav nav-visible">
+						<li><a href="/install/.html">Slack Channel</a><br></li>
+						<li><a href="/install/.html">GitHub</a><br></li>
+						<li><a href="/install/.html">Stackoverflow</a><br></li>
+						<li><a href="/install/.html">Mailing List</a><br></li>
+						<li><a href="/install/.html">FAQs</a><br></li>
+					</ul>
+				</li>
 			</ul>
 		</div>
 
