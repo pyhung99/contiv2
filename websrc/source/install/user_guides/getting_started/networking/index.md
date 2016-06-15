@@ -1,7 +1,7 @@
 ---
-layout: "docs"
+layout: "install"
 page_title: "Networking"
-sidebar_current: "docs-home"
+sidebar_current: "install"
 description: |-
   Getting Started with Contiv Network
 ---

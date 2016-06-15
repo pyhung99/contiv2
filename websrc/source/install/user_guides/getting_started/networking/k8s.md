@@ -1,5 +1,5 @@
 ---
-layout: "docs"
+layout: "install"
 page_title: "Kubernetes cluster"
 sidebar_current: "docs-home"
 description: |-

@@ -1,5 +1,5 @@
 ---
-layout: "docs"
+layout: "install"
 page_title: "Basic Setup"
 sidebar_current: "docs-home"
 description: |-

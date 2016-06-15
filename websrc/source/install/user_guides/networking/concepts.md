@@ -1,5 +1,5 @@
 ---
-layout: "docs"
+layout: "install"
 page_title: "Networking Terminology and Concepts"
 sidebar_current: "docs-home"
 description: |-
