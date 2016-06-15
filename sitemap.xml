@@ -133,6 +133,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://contiv.io/install/reference/storage_reference.html</loc>
+    <lastmod>2016-06-15T00:00:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://contiv.io/install/samples/</loc>
     <lastmod>2016-06-15T00:00:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -247,12 +253,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://contiv.io/install/user_guides/getting_started/networking/install.html</loc>
-    <lastmod>2016-06-15T00:00:00-07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://contiv.io/install/user_guides/getting_started/networking/k8s.html</loc>
     <lastmod>2016-06-15T00:00:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -278,6 +278,12 @@
   </url>
   <url>
     <loc>http://contiv.io/install/user_guides/getting_started/networking/swarm.html</loc>
+    <lastmod>2016-06-15T00:00:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://contiv.io/install/user_guides/getting_started/networking/vagrant.html</loc>
     <lastmod>2016-06-15T00:00:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -391,12 +397,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://contiv.io/install/user_guides/storage/concepts/2_volplugin.html</loc>
-    <lastmod>2016-06-15T00:00:00-07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://contiv.io/install/user_guides/storage/concepts/</loc>
     <lastmod>2016-06-15T00:00:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -404,36 +404,6 @@
   </url>
   <url>
     <loc>http://contiv.io/install/user_guides/storage/concepts/policies/</loc>
-    <lastmod>2016-06-15T00:00:00-07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://contiv.io/install/user_guides/storage/concepts/storage_architecture.html</loc>
-    <lastmod>2016-06-15T00:00:00-07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://contiv.io/install/user_guides/storage/concepts/storage_config.html</loc>
-    <lastmod>2016-06-15T00:00:00-07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://contiv.io/install/user_guides/storage/concepts/storage_getting_started.html</loc>
-    <lastmod>2016-06-15T00:00:00-07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://contiv.io/install/user_guides/storage/concepts/storage_intro.html</loc>
-    <lastmod>2016-06-15T00:00:00-07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://contiv.io/install/user_guides/storage/concepts/storage_reference.html</loc>
     <lastmod>2016-06-15T00:00:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -488,6 +458,24 @@
   </url>
   <url>
     <loc>http://contiv.io/install/user_guides/storage/policies/snapshots.html</loc>
+    <lastmod>2016-06-15T00:00:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://contiv.io/install/user_guides/storage/storage_architecture.html</loc>
+    <lastmod>2016-06-15T00:00:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://contiv.io/install/user_guides/storage/storage_config.html</loc>
+    <lastmod>2016-06-15T00:00:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://contiv.io/install/user_guides/storage/storage_getting_started.html</loc>
     <lastmod>2016-06-15T00:00:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script src="../../assets/javascripts/nocollapse.js"></script>
+    <script src="../../assets/javascripts/nocollapse-dab3f001.js"></script>
     <title>Contiv</title>
 
     <link href="/assets/stylesheets/application-37b6ec3f.css" rel="stylesheet"/>
@@ -101,10 +101,10 @@ GitHub</a></li>
 </aside>
 
 
-<h2>Command Line Reference</h2>
+<h2>Contiv Storage Command Line Reference</h2>
 <p>The <code>volcli</code> command controls the <code>volmaster</code>, which in turn is referenced by <code>volplugin</code> for local management of storage.</p>
 
-<h3>Top-Level Commands</h3>
+<h2>Top-Level Commands</h2>
 <p>The following top-level subcommands specify the scope of CRUD operations specified by lower-level subcommands:</p>
 
 <ul>
@@ -120,7 +120,7 @@ GitHub</a></li>
 </li>
 </ul>
 
-<h3>Global Commands</h3>
+<h2>Global Commands</h2>
 
 <ul>
 <li><a name="volcli_global_upload"/><a href="#volcli_global_upload"><code>volcli global upload</code></a> takes JSON global configuration from the standard input.
@@ -129,7 +129,7 @@ GitHub</a></li>
 </li>
 </ul>
 
-<h3>Tenant Commands</h3>
+<h2>Tenant Commands</h2>
 <p>Typing <code>volcli policy</code> without arguments will print help for these commands.</p>
 
 <ul>
@@ -143,7 +143,7 @@ GitHub</a></li>
 </li>
 </ul>
 
-<h3>Volume Commands</h3>
+<h2>Volume Commands</h2>
 <p>Typing <code>volcli volume</code> without arguments will print help for these commands.</p>
 
 <ul>
@@ -165,7 +165,7 @@ GitHub</a></li>
 </li>
 </ul>
 
-<h3>Mount Commands</h3>
+<h2>Mount Commands</h2>
 <p>Typing <code>volcli mount</code> without arguments will print help for these commands.</p>
 <p><strong>Note:</strong> <code>volcli mount</code> cannot control mounts -- this is managed by <code>volplugin</code> which lives on each host. Eventually there will be support for pushing operations down to the volplugin, but not yet.</p>
 
@@ -178,7 +178,7 @@ GitHub</a></li>
 </li>
 </ul>
 
-<h3>Use Commands</h3>
+<h2>Use Commands</h2>
 <p>Use commands control the locking system and also provide information about what is being used by what. Use these commands with caution as they can affect the stability of the cluster if used improperly.</p>
 
 <ul>

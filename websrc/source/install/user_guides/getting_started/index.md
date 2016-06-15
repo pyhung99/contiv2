@@ -7,7 +7,7 @@ description: |-
 ---
 
 # [Networking](/install/user_guides/getting_started/networking)
-Set up a development environment or a cluste of servers using different clustering systems.
+Set up a development environment or a cluster of servers using different clustering systems.
 
 #[Network Topologies](/install/user_guides/getting_started/network_topologies)
 Deploying with various routing schemes.
