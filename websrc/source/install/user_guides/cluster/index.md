@@ -8,8 +8,8 @@ description: |-
 
 # Clusters in Contiv
 
-## [Terminology and Concepts](concepts/index.html)
+## [Terminology and Concepts](/install/user_guides/cluster/concepts.html)
 
-## Discovery
+## [Discovery](/install/user_guides/cluster/discovery.html)
 
-## Commissioning and Decommissioning
+## [Commissioning and Decommissioning](/install/user_guides/cluster/commissioning.html)

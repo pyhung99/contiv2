@@ -1,8 +1,8 @@
-## Command Line Reference
+## Contiv Storage Command Line Reference
 
 The `volcli` command controls the `volmaster`, which in turn is referenced by `volplugin` for local management of storage. 
 
-### Top-Level Commands
+## Top-Level Commands
 
 The following top-level subcommands specify the scope of CRUD operations specified by lower-level subcommands:
 
@@ -12,12 +12,12 @@ The following top-level subcommands specify the scope of CRUD operations specifi
 - `volcli mount` manipulates mounts.
 - `volcli help` prints the help. For each subcommand, `volcli help [subcommand]` prints the help for that command. For multi-level commands, use `volcli [subcommand] help [subcommand]`. Appending `--help` to any command displays the help as well.
 
-### Global Commands
+## Global Commands
 
 - `volcli global upload` takes JSON global configuration from the standard input.
 - `volcli global get` retrieves the JSON global configuration.
 
-### Tenant Commands
+## Tenant Commands
 
 Typing `volcli policy` without arguments will print help for these commands.
 
@@ -26,7 +26,7 @@ Typing `volcli policy` without arguments will print help for these commands.
 - `volcli policy get` displays the JSON configuration for a policy.
 - `volcli policy list` lists the policies etcd knows about.
 
-### Volume Commands
+## Volume Commands
 
 Typing `volcli volume` without arguments will print help for these commands.
 
@@ -39,7 +39,7 @@ Typing `volcli volume` without arguments will print help for these commands.
 - `volcli volume runtime get` will retrieve the runtime policy for a given volume
 - `volcli volume runtime upload` will upload (via stdin) the runtime policy for a given volume
 
-### Mount Commands
+## Mount Commands
 
 Typing `volcli mount` without arguments will print help for these commands.
 
@@ -49,7 +49,7 @@ Typing `volcli mount` without arguments will print help for these commands.
 - `volcli mount get` obtains specific information about a mount from etcd.
 - `volcli mount force-remove` removes the contents from etcd, but does not attempt to perform any unmounting. This is useful for removing mounts that for some reason (e.g., host failure, which is not currently satsified by volplugin)
 
-### Use Commands
+## Use Commands
 
 Use commands control the locking system and also provide information about what is being used by what. Use these commands with caution as they can affect the stability of the cluster if used improperly.
 
