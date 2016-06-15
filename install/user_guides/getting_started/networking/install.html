@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Installing netplugin.">
+    <meta name="description" content="Contiv Networking on Baremetal or VMs">
 
     <link rel="shortcut icon" href="/assets/images/favicon.png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script src="../../assets/javascripts/nocollapse-dab3f001.js"></script>
+    <script src="../../assets/javascripts/nocollapse.js"></script>
     <title>Install Netplugin - Contiv</title>
 
     <link href="/assets/stylesheets/application-37b6ec3f.css" rel="stylesheet"/>
@@ -20,7 +20,7 @@
     
   </head>
 
-  <body id="page-Install Netplugin" class=" page-Install Netplugin layout-install page-sub">
+  <body id="page-Install Netplugin" class=" page-Install Netplugin layout-docs page-sub">
 
 <div id="header" class="navbar-static-top">
   <div class="container">
@@ -106,159 +106,17 @@ GitHub</a></li>
 		<div class="col-md-3 col-sm-3 col-xs-12">
 					<div class="docs-sidebar hidden-print affix-top" role="complementary">
 			<ul class="nav docs-sidenav">
+				<li class="active">
+					<a href="/docs/index.html">Documentation Home</a>
+				</li>
+
 				<li>
-					<a data-toggle="collapse" href="#collapse21" href="/install/user_guides/getting_started/index.html">Getting Started ...</a>
-						<div id="collapse21" class="panel-collapse collapse">
-						
-						<ul class="nav nav-visible">
-						<li>
-
-							<a data-toggle="collapse" href="#collapse1" href="/install/user_guides/getting_started/networking/index.html">Networking ... </a>
-							<div id="collapse1" class="panel-collapse collapse">
-									<ul>
-										<li><a href="/install/user_guides/getting_started/networking/swarm.html">Docker Swarm</a><br></li>
-										<li><a href="/install/user_guides/getting_started/networking/k8s.html">Kubernetes</a><br></li>
-										<li><a href="/install/user_guides/getting_started/networking/mesos.html">Mesos</a><br></li>
-										<li><a href="/install/user_guides/getting_started/networking/nomad.html">Nomad</a><br></li>
-									</ul>
-							</div>
-						</li>
-						<li class="active">
-							<a data-toggle="collapse" href="#collapse2" href="/install/netplugin/install.html">Network Topologies ... </a>
-							<div id="collapse2" class="panel-collapse collapse">
-								<ul>
-									<li><a href="/install/netplugin/docker.html">Native Routing</a></li>
-									<li><a href="/install/netplugin/kubernetes.html">Native Bridging</a></li>
-									<li><a href="/install/netplugin/mesos.html">Openstack Deployment</a></li>
-									<li><a href="/install/netplugin/nomad.html">Cloud Deployment</a></li>
-									<li><a href="https://github.com/contiv/netplugin">Vagrant Setup</a></li>
-									
-									<li><a href="https://github.com/jainvipin/tutorial">Containers Networking Tutorial</a></li>
-								</ul>
-							</div>
-						</li>
-						<li>
-						<a data-toggle="collapse" href="#collapse6" href="/install/netplugin/install.html">Storage ... </a>
-							<div id="collapse6" class="panel-collapse collapse">
-								<ul>
-									<li><a href="/install/netplugin/volplugin.html">Docker Swarm</a></li>
-								</ul>
-							</div>
-						</li>
-						<li>
-						<a data-toggle="collapse" href="#collapse7" href="/install/netplugin/install.html">Storage Backends ... </a>
-							<div id="collapse7" class="panel-collapse collapse">
-								<ul>
-									<li><a href="/install/netplugin/docker.html">Ceph</a></li>
-									<li><a href="/install/netplugin/docker.html">NFS</a></li>
-
-								</ul>
-							</div>
-						</li>
-						<li>
-						<a data-toggle="collapse" href="#collapse8" href="/install/netplugin/install.html">Community Talks ... </a>
-							<div id="collapse8" class="panel-collapse collapse">
-								<ul>
-									<li><a href="https://www.youtube.com/playlist?list=PL2k86RlAekM_g6csRwSRQAWvln5SmgicN">YouTube Links</a></li>
-								</ul>
-							</div>
-						</li>
-
-					</ul>
-				</div>
-					<a data-toggle="collapse" href="#collapse22" href="/install/index.html">Networking ...</a>
-					<div id="collapse22" class="panel-collapse collapse">
-
-						<ul class="nav nav-visible">
-							<li><a href="/install/netplugin/vagrant.html">Terminology</a></li>
-							<li class="active"><a href="/install/netplugin/install.html">Networks</a></li>
-							<li><a href="/install/netplugin/aci.html">Tenants</a></li>
-							<li>
-								<a data-toggle="collapse" href="#collapse3" href="/install/netplugin/k8s.html">Policies ... </a></li>
-									<div id="collapse3" class="panel-collapse collapse">
-										<ul>
-											<li><a href="/install/netplugin/docker.html">Security</a></li>
-											<li><a href="/install/netplugin/kubernetes.html">Bandwidth</a></li>
-											<li><a href="/install/netplugin/mesos.html">Prioritization</a></li>
-											<li class="active"><a href="/install/netplugin/install.html">Loadbalancing</a></li>
-										</ul>
-									</div>
-							<li class="active">
-								<a data-toggle="collapse" href="#collapse4" href="/install/netplugin/install.html">External Connectivity ... </a>
-								<div id="collapse4" class="panel-collapse collapse">
-									<ul>
-										<li><a href="/install/netplugin/docker.html">Rerouted Network</a></li>
-										<li><a href="/install/netplugin/kubernetes.html">Bridged Network</a></li>
-										<li><a href="/install/netplugin/mesos.html">Overlay Cloud Network</a></li>
-										<li><a href="/install/netplugin/mesos.html">Cisco ACI</a></li>
-										</li>
-									</ul>
-								</div>
-							</li>
-							<li class="active"><a href="/install/netplugin/install.html">Service Discovery</a></li>
-							<li class="active"><a href="/install/netplugin/install.html">IP Address Management</a></li>
-							<li class="active">
-							<a data-toggle="collapse" href="#collapse5" href="/install/netplugin/install.html">Hybrid Workloads ... </a></li>
-								<div id="collapse5" class="panel-collapse collapse">
-								<ul>
-									<li><a href="/install/netplugin/docker.html">Providing Connectivity</a></li>
-									<li><a href="/install/netplugin/kubernetes.html">Applying Policies</a></li>
-								</ul>
-						</ul>
-					</div>
-					<a data-toggle="collapse" href="#collapse23" href="/install/index.html">Storage ...</a>
-					<div id="collapse23" class="panel-collapse collapse">
-					
-						<ul class="nav nav-visible">
-							<li><a href="/install/netplugin/vagrant.html">Terminology</a></li>
-							<li>
-								<a data-toggle="collapse" href="#collapse9" href="/install/netplugin/vagrant.html">Policies</a></li>
-								<div id="collapse9" class="panel-collapse collapse">
-									<ul>
-										<li><a href="/install/netplugin/docker.html">Allocation</a></li>
-										<li><a href="/install/netplugin/kubernetes.html">IOPs Rate Limiting</a></li>
-										<li><a href="/install/netplugin/mesos.html">Snapshots</a></li>
-										<li><a href="/install/netplugin/mesos.html">FileSystem</a></li>
-										</li>
-									</ul>
-								</div>
-							<li><a href="/install/netplugin/vagrant.html">Ceph</a></li>
-							<li><a href="/install/netplugin/vagrant.html">NFS</a></li>
-						</ul></div>
-
-					<a data-toggle="collapse" href="#collapse24" href="/install/index.html">Cluster ...</a>
-					<div id="collapse24" class="panel-collapse collapse">
-					<ul class="nav nav-visible">
-							<li><a href="/install/netplugin/vagrant.html">Terminology</a></li>
-							<li><a href="/install/netplugin/vagrant.html">Discovery</a></li>
-							<li><a href="/install/netplugin/vagrant.html">Commissioning</a></li>
-							<li><a href="/install/netplugin/vagrant.html">Decommissioning</a></li>
-						</ul></div>
+					<a href="/docs/netplugin.html">Contiv Network</a>
 				</li>
-				<hr><p>
-				Reference
-					<ul class="nav nav-visible">
-						<li><a href="/install/netplugin/docker.html">Network API Reference</a><br></li>
-						<li><a href="/install/netplugin/kubernetes.html">Storage API Reference</a><br></li>
-						<li><a href="/install/netplugin/mesos.html">Cluster API Reference</a><br></li>
-					</ul>
-				<hr><p>
-				Examples
-					<ul class="nav nav-visible">
-						<li><a href="/install/netplugin/docker.html">Contiv Example 1</a><br></li>
-						<li><a href="/install/netplugin/kubernetes.html">Contiv Example 2</a><br></li>
-						<li><a href="/install/netplugin/mesos.html">Contiv Example 3</a><br></li>
-					</ul>
-				<hr><p>
-				Support
-					<ul class="nav nav-visible">
-						<li><a href="/install/netplugin/docker.html">Slack Channel</a><br></li>
-						<li><a href="/install/netplugin/kubernetes.html">GitHub</a><br></li>
-						<li><a href="/install/netplugin/mesos.html">Stackoverflow</a><br></li>
-						<li><a href="/install/netplugin/mesos.html">Mailing List</a><br></li>
-						<li><a href="/install/netplugin/mesos.html">FAQs</a><br></li>
-					</ul>
-				</li>
+
+				<li>
+					<a href="/docs/volplugin.html">Contiv Storage</a>
+                </li>
 			</ul>
 		</div>
 

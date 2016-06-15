@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Getting Started with Contiv Network">
+    <meta name="description" content="">
 
     <link rel="shortcut icon" href="/assets/images/favicon.png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -11,7 +11,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="../../assets/javascripts/nocollapse.js"></script>
-    <title>Networking - Contiv</title>
+    <title>Contiv</title>
 
     <link href="/assets/stylesheets/application-37b6ec3f.css" rel="stylesheet"/>
 
@@ -20,7 +20,7 @@
     
   </head>
 
-  <body id="page-Networking" class=" page-Networking layout-docs page-sub">
+  <body id="page-home" class=" page-home layout-">
 
 <div id="header" class="navbar-static-top">
   <div class="container">
@@ -101,49 +101,42 @@ GitHub</a></li>
 </aside>
 
 
-<div class="container">
-	<div class="row">
-		<div class="col-md-3 col-sm-3 col-xs-12">
-					<div class="docs-sidebar hidden-print affix-top" role="complementary">
-			<ul class="nav docs-sidenav">
-				<li class="active">
-					<a href="/docs/index.html">Documentation Home</a>
-				</li>
-
-				<li>
-					<a href="/docs/netplugin.html">Contiv Network</a>
-				</li>
-
-				<li>
-					<a href="/docs/volplugin.html">Contiv Storage</a>
-                </li>
-			</ul>
-		</div>
-
-		</div>  
-		<div id="main-content" class="col-sm-9 col-md-9 col-xs-12" role="main">
-			<div class="bs-docs-section">
-				
-	<h1>Getting Started with Contiv Network</h1>
-
-<h2>Contiv Network</h2>
-<p>There are several ways to try out Contiv Network:</p>
+<h1>Contiv Storage: Cluster-Wide Volume Management for Containers</h1>
+<p>Contiv Storage controls <a href="http://ceph.com/">Ceph</a> Rados block devices (RBDs) in a way that 
+is easy for developers to use with Docker and flexible for ops to configure.
+Reference volumes with Docker from anywhere Ceph is available; the volumes are located
+and mounted. Contiv Storage works well with <a href="https://github.com/docker/compose">Docker Compose</a> and
+<a href="https://github.com/docker/swarm">Swarm</a>.</p>
+<p>Contiv Storage profiles make instantiating similar class volumes easy,
+With profiles, you can:</p>
 
 <ul>
-<li><a href="vagrant.html">Install Contiv Network in a Vagrant setup</a>
+<li>Give your development teams full-stack development environments (complete with state) that
+arrive on demand. 
 </li>
-<li><a href="baremetal.html">Install Contiv Network on a baremetal or VM cluster</a>
+<li>Scale your stateful containers quickly with our snapshot functionality.
+One CLI command captures the volume, and you can refer to anywhere, immediately. 
 </li>
-<li><a href="/install/user_guides/getting_started/networking/k8s.html">Install Contiv Network with Kubernetes</a>
-</li>
-<li><a href="/install/user_guides/getting_started/networking/bgp.html">Install Contiv Network in L3 BGP mode</a>
+<li>Recover from crashed containers and hosts. Just re-initialize your
+container on another host with the same volume name.
 </li>
 </ul>
-<p>You can also use Contiv Network with Cisco Application Centric Infrastructure (ACI). For more information,
-contact Cisco Systems.</p>
+<p>Contiv Storage currently only supports Docker volume plugins. It provides 
+first class scheduler support for <a href="https://github.com/kubernetes/kubernetes">Kubernetes</a>.
+Support for <a href="http://mesos.apache.org/">Mesos</a> will be available before the first stable
+release.</p>
+<p>Contiv Storage uses a master/slave model to support a number of features, such as:</p>
 
-
-			</div>
-		</div>
-	</div>
-</div>
+<ul>
+<li>On-the-fly image creation and (re)mount from any Ceph source, by referencing
+a policy and volume name.
+</li>
+<li>Manage many kinds of filesystems, including providing <a name="mkfs"/><a href="#mkfs"><code>mkfs</code></a> commands.
+</li>
+<li>Snapshot frequency and pruning. Copying snapshots to new volumes.
+</li>
+<li>Ephemeral (removed on container teardown) volumes.
+</li>
+<li>IOPS limiting.
+</li>
+</ul>

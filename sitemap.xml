@@ -49,6 +49,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://contiv.io/install/</loc>
+    <lastmod>2016-06-14T00:00:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://contiv.io/install/netplugin/aci.html</loc>
     <lastmod>2016-06-14T00:00:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -121,6 +127,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://contiv.io/install/reference/cluster_api/</loc>
+    <lastmod>2016-06-14T00:00:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://contiv.io/install/reference/</loc>
     <lastmod>2016-06-14T00:00:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -134,6 +146,12 @@
   </url>
   <url>
     <loc>http://contiv.io/install/user_guides/cluster/commissioning.html</loc>
+    <lastmod>2016-06-14T00:00:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://contiv.io/install/user_guides/cluster/concepts/</loc>
     <lastmod>2016-06-14T00:00:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -175,13 +193,85 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://contiv.io/install/user_guides/getting_started/network_topologies/bgp.html</loc>
+    <lastmod>2016-06-14T00:00:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://contiv.io/install/user_guides/getting_started/network_topologies/cloud.html</loc>
+    <lastmod>2016-06-14T00:00:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://contiv.io/install/user_guides/getting_started/network_topologies/</loc>
+    <lastmod>2016-06-14T00:00:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://contiv.io/install/user_guides/getting_started/network_topologies/native_bridged.html</loc>
+    <lastmod>2016-06-14T00:00:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://contiv.io/install/user_guides/getting_started/network_topologies/native_routed.html</loc>
+    <lastmod>2016-06-14T00:00:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://contiv.io/install/user_guides/getting_started/network_topologies/openstack.html</loc>
+    <lastmod>2016-06-14T00:00:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://contiv.io/install/user_guides/getting_started/network_topologies/vagrant.html</loc>
+    <lastmod>2016-06-14T00:00:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://contiv.io/install/user_guides/getting_started/networking/aci.html</loc>
+    <lastmod>2016-06-14T00:00:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://contiv.io/install/user_guides/getting_started/networking/basic_server_setup.html</loc>
+    <lastmod>2016-06-14T00:00:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://contiv.io/install/user_guides/getting_started/networking/bgp.html</loc>
+    <lastmod>2016-06-14T00:00:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://contiv.io/install/user_guides/getting_started/networking/</loc>
     <lastmod>2016-06-14T00:00:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://contiv.io/install/user_guides/getting_started/networking/install.html</loc>
+    <lastmod>2016-06-14T00:00:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://contiv.io/install/user_guides/getting_started/networking/k8s.html</loc>
+    <lastmod>2016-06-14T00:00:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://contiv.io/install/user_guides/getting_started/networking/mcast.html</loc>
     <lastmod>2016-06-14T00:00:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -253,6 +343,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://contiv.io/install/user_guides/getting_started/storage/swarm.html</loc>
+    <lastmod>2016-06-14T00:00:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://contiv.io/install/user_guides/getting_started/storage_systems/ceph.html</loc>
     <lastmod>2016-06-14T00:00:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -266,6 +362,18 @@
   </url>
   <url>
     <loc>http://contiv.io/install/user_guides/getting_started/storage_systems/nfs.html</loc>
+    <lastmod>2016-06-14T00:00:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://contiv.io/install/user_guides/</loc>
+    <lastmod>2016-06-14T00:00:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://contiv.io/install/user_guides/networking/concepts/</loc>
     <lastmod>2016-06-14T00:00:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -319,13 +427,61 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://contiv.io/install/user_guides/networking/tenants.html</loc>
+    <loc>http://contiv.io/install/user_guides/networking/service_discovery.html</loc>
     <lastmod>2016-06-14T00:00:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://contiv.io/install/user_guides/storage/ceph.html</loc>
+    <lastmod>2016-06-14T00:00:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://contiv.io/install/user_guides/storage/concepts/2_volplugin.html</loc>
+    <lastmod>2016-06-14T00:00:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://contiv.io/install/user_guides/storage/concepts/</loc>
+    <lastmod>2016-06-14T00:00:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://contiv.io/install/user_guides/storage/concepts/policies/</loc>
+    <lastmod>2016-06-14T00:00:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://contiv.io/install/user_guides/storage/concepts/storage_architecture.html</loc>
+    <lastmod>2016-06-14T00:00:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://contiv.io/install/user_guides/storage/concepts/storage_config.html</loc>
+    <lastmod>2016-06-14T00:00:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://contiv.io/install/user_guides/storage/concepts/storage_getting_started.html</loc>
+    <lastmod>2016-06-14T00:00:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://contiv.io/install/user_guides/storage/concepts/storage_intro.html</loc>
+    <lastmod>2016-06-14T00:00:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://contiv.io/install/user_guides/storage/concepts/storage_reference.html</loc>
     <lastmod>2016-06-14T00:00:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -385,7 +541,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://contiv.io/install/user_guides/networking/service_discovery.html</loc>
+    <loc>http://contiv.io/install/user_guides/networking/tenants.html</loc>
     <lastmod>2016-06-14T00:00:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

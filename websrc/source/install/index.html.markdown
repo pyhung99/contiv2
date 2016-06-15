@@ -1,32 +1,21 @@
 ---
 layout: "install"
-page_title: "Installation"
-sidebar_current: "install"
+page_title: "Documentation"
+sidebar_current: "docs-home"
 description: |-
-  Getting started guide for Contiv
+  Welcome to the Contiv documentation!
 ---
 
-# Getting Started
-Welcome to the Getting Started Guide.
-=======
+# [User Guides](user_guides)
+Find information about Contiv design, archtecture, and components, as well as getting started
+guides.
 
-## Contiv Network
-There are several ways to try out Contiv Network:
+# [API Reference](api)
+REST APIs. Tip: The command line interface (CLI) mirrors the APIs, so you can try out Contiv
+commands without writing a program.
 
-[Install Contiv Network in a Vagrant setup](./netplugin/vagrant.html)
+# [Samples](samples)
+Short but practical implementations to help you get started.
 
-[Install Contiv Network on a baremetal or VM cluster](./netplugin/install.html)
-
-[Install Contiv Network with ACI](./netplugin/aci.html)
-
-[Install Contiv Network with Kubernetes](./netplugin/k8s.html)
-
-[Install Contiv Network in L3 BGP mode](./netplugin/bgp.html)
-
-## Contiv Storage
-
-To get started with Contiv Storage, see the documentation [here](http://contiv.github.io/docs/2_volplugin.html).
-
-## Contiv Cluster
-
-To get started with Contiv Cluster, see the documentation [here](https://github.com/contiv/cluster/tree/master/management).
+# Support
+Where to find help for the open source Contiv project.
