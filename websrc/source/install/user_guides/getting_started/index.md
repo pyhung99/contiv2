@@ -1,7 +1,7 @@
 ---
-layout: "docs"
+layout: "install"
 page_title: "Getting Started"
-sidebar_current: "docs-home"
+sidebar_current: "install"
 description: |-
   Getting Started
 ---

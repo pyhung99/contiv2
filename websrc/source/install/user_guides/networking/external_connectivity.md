@@ -1,5 +1,5 @@
 ---
-layout: "docs"
+layout: "install"
 page_title: "External Connectivity"
 sidebar_current: "docs-home"
 description: |-

@@ -1,5 +1,5 @@
 ---
-layout: "docs"
+layout: "install"
 page_title: "Contiv in the Cloud"
 sidebar_current: "docs-home"
 description: |-

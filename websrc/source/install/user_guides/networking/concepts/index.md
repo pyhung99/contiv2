@@ -1,5 +1,5 @@
 ---
-layout: "docs"
+layout: "install"
 page_title: "Terminology and Concepts"
 sidebar_current: "docs-home"
 description: |-
