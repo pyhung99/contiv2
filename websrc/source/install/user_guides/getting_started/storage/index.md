@@ -1,7 +1,7 @@
 ---
 layout: "docs"
 page_title: "Getting Started with Contiv Storage"
-sidebar_current: "docs-home"
+sidebar_current: "install"
 description: |-
   Getting Started with Contiv Storage
 ---
