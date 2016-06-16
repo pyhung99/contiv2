@@ -7,57 +7,57 @@
 				<li<%= sidebar_current("getting-started") %>>
 					<a href="/install/user_guides/getting_started/index.html">Getting Started</a>
 					<ul class="nav">
-						<li<%= sidebar_current("getting-started-networking") %>>
+						<li<%= sidebar_current("getting-started-gs_net") %>>
 							<a href="/install/user_guides/getting_started/networking/index.html">Networking </a>
 								<ul class="nav">
-									<li<%= sidebar_current("getting-started-vagrant") %>>
+									<li<%= sidebar_current("gs_net-vagrant") %>>
 											<a href="/install/user_guides/getting_started/networking/vagrant.html">Development Setup with Vagrant</a>
 									</li>
-									<li<%= sidebar_current("getting-started-multicast") %>>
+									<li<%= sidebar_current("gs_net-multicast") %>>
 											<a href="/install/user_guides/getting_started/networking/mcast.html">Multicast Demonstration</a>
 									</li>
-									<li<%= sidebar_current("getting-started-server-setup") %>>
+									<li<%= sidebar_current("gs_net-server-setup") %>>
 											<a href="/install/user_guides/getting_started/networking/basic_server_setup.html">Basic Server Setup</a>
 									</li>
-									<li<%= sidebar_current("getting-started-swarm") %>>
+									<li<%= sidebar_current("gs_net-swarm") %>>
 											<a href="/install/user_guides/getting_started/networking/swarm.html">Docker Swarm</a>
 									</li>
-									<li<%= sidebar_current("getting-started-k8s") %>>
+									<li<%= sidebar_current("gs_net-k8s") %>>
 											<a href="/install/user_guides/getting_started/networking/k8s.html">Kubernetes</a>
 									</li>
-									<li<%= sidebar_current("getting-started-mesos") %>>
+									<li<%= sidebar_current("gs_net-mesos") %>>
 											<a href="/install/user_guides/getting_started/networking/mesos.html">Mesos</a>
 									</li>
-									<li<%= sidebar_current("getting-started-nomad") %>>
+									<li<%= sidebar_current("gs_net-nomad") %>>
 											<a href="/install/user_guides/getting_started/networking/nomad.html">Nomad</a>
 									</li>
-									<li<%= sidebar_current("getting-started-bgp") %>>
+									<li<%= sidebar_current("gs_net-bgp") %>>
 											<a href="/install/user_guides/getting_started/networking/bgp.html">BGP</a>
 									</li>
 								</ul>
 						</li>
-						<li<%= sidebar_current("network-topologies") %>>
+						<li<%= sidebar_current("getting-started-network-topologies") %>>
 							<a href="/install/user_guides/getting_started/network_topologies/index.html">Network Topologies </a>
 							<ul class="nav">
-								<li<%= sidebar_current("network-topologies-routing") %>>
+								<li<%= sidebar_current("getting-started-nt-routing") %>>
 									<a href="/install/user_guides/getting_started/network_topologies/native_routed.html">Native Routing</a>
 								</li>
-								<li<%= sidebar_current("network-topologies-bridging") %>>
+								<li<%= sidebar_current("getting-started-nt-bridging") %>>
 									<a href="/install/user_guides/getting_started/network_topologies/native_bridged.html">Native Bridging</a>
 								</li>
-								<li<%= sidebar_current("network-topologies-openstack") %>>
+								<li<%= sidebar_current("getting-started-nt-openstack") %>>
 									<a href="/install/user_guides/getting_started/network_topologies/openstack.html">Openstack Deployment</a>
 								</li>
-								<li<%= sidebar_current("network-topologies-cloud") %>>
+								<li<%= sidebar_current("getting-started-nt-cloud") %>>
 									<a href="/install/user_guides/getting_started/network_topologies/cloud.html">Cloud Deployment</a>
 								</li>
-								<li<%= sidebar_current("network-topologies-vagrant") %>>
+								<li<%= sidebar_current("getting-started-nt-vagrant") %>>
 									<a href="/install/user_guides/getting_started/network_topologies/vagrant.html">Vagrant Setup</a>
 								</li>
-								<li<%= sidebar_current("network-topologies-tutorial") %>>
+								<li<%= sidebar_current("getting-started-nt-tutorial") %>>
 									<a href="/install/user_guides/getting_started/network_topologies/networking101.html">Containers Networking Tutorial</a>
 								</li>
-								<li<%= sidebar_current("network-topologies-bgp") %>>
+								<li<%= sidebar_current("getting-started-nt-bgp") %>>
 									<a href="/install/user_guides/getting_started/network_topologies/bgp.html">BGP</a>
 								</li>
 							</ul>
@@ -71,19 +71,11 @@
 						<li<%= sidebar_current("storsystems") %>>
 							<a href="/install/user_guides/getting_started/storage_systems/index.html">Storage Systems </a>
 							<ul class="nav">
-								<li<%= sidebar_current("storsystems-ceph") %>><a href="/install/user_guides/getting_started/storage/ceph.html">Ceph</a></li>
-								<li<%= sidebar_current("storsystems-nfs") %>><a href="/install/user_guides/getting_started/storage/nfs.html">NFS</a></li>
+								<li<%= sidebar_current("getting-started-ceph") %>><a href="/install/user_guides/getting_started/storage/ceph.html">Ceph</a></li>
+								<li<%= sidebar_current("getting-started-nfs") %>><a href="/install/user_guides/getting_started/storage/nfs.html">NFS</a></li>
 		
 							</ul>
 						</li>
-<!--
-					<li<%= sidebar_current("user-guide-community") %>>
-						<a href="/install/user_guides/getting_started/community_talks/index.html">Community Talks</a>
-						<ul class="nav">
-								<li<%= sidebar_current("install") %>><a href="https://www.youtube.com/playlist?list=PL2k86RlAekM_g6csRwSRQAWvln5SmgicN">YouTube Links</a></li>
-							</ul>
-					</li>
--->
 					</ul>
 				</li>
 				<li<%= sidebar_current("networking") %>>
@@ -94,25 +86,8 @@
 						<li<%= sidebar_current("networking-tenants") %>><a href="/install/user_guides/networking/tenants.html">Tenants</a></li>
 						<li<%= sidebar_current("networking-policies") %>><a href="/install/user_guides/networking/policies.html">Policies </a>
 						</li>
-<!-- This might be cutting it a little too fine in the sidebar menu
-						<ul class="nav">
-							<li<%= sidebar_current("net-policies-security") %>><a href="/install/user_guides/networking/policies.html#Security">Security</a></li>
-							<li<%= sidebar_current("net-policies-bandwidth") %>><a href="/install/user_guides/networking/policies.html#Bandwidth">Bandwidth</a></li>
-							<li<%= sidebar_current("net-policies-priority") %>><a href="/install/user_guides/networking/policies.html#Prioritization">Prioritization</a></li>
-							<li<%= sidebar_current("net-policies-loadbalance") %>><a href="/install/user_guides/networking/policies.html#Loadbalancing">Loadbalancing</a></li>
-						</ul>
--->
 						<li<%= sidebar_current("networking-externalconn") %>>
 							<a href="/install/user_guides/networking/external_connectivity.html">External Connectivity</a>
-<!-- Here too
-								<ul>
-									<li<%= sidebar_current("net-externalconn-rerouted") %>><a href="/install/user_guides/getting_started/networking/external_connectivity.html#Routed_Network">Rerouted Network</a></li>
-									<li<%= sidebar_current("net-externalconn-bridged") %>><a href="/install/user_guides/getting_started/networking/external_connectivity.html#Bridged_Network">Bridged Network</a></li>
-									<li<%= sidebar_current("net-externalconn-cloud") %>><a href="/install/user_guides/getting_started/networking/external_connectivity.html#Overlay_Cloud_Network">Overlay Cloud Network</a></li>
-									<li<%= sidebar_current("net-externalconn-aci") %>><a href="/install/user_guides/getting_started/networking/external_connectivity.html#Cisco_ACI">Cisco ACI</a></li>
-									</li>
-								</ul>
--->
 						</li>
 						<li<%= sidebar_current("networking-discovery") %>><a href="/install/user_guides/networking/service_discovery.html">Service Discovery</a></li>
 						<li<%= sidebar_current("networking-ipam") %>><a href="/install/user_guides/networking/ipam.html">IP Address Management</a></li>
