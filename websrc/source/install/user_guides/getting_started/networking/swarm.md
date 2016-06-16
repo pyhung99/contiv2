@@ -1,5 +1,5 @@
 ---
-layout: "docs"
+layout: "install"
 page_title: "Nomad"
 sidebar_current: "docs-home"
 description: |-
