@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://contiv.io/install/user_guides/networking/policies.html</loc>
-    <lastmod>2016-06-16T00:00:00-07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://contiv.io/articles/2016/03/06/scaling-microservices.html</loc>
     <lastmod>2016-06-16T00:00:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -235,12 +229,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://contiv.io/install/user_guides/getting_started/network_topologies/vagrant.html</loc>
-    <lastmod>2016-06-16T00:00:00-07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://contiv.io/install/user_guides/getting_started/networking/3_netplugin.html</loc>
     <lastmod>2016-06-16T00:00:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -386,6 +374,12 @@
   </url>
   <url>
     <loc>http://contiv.io/install/user_guides/networking/networks.html</loc>
+    <lastmod>2016-06-16T00:00:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://contiv.io/install/user_guides/networking/policies.html</loc>
     <lastmod>2016-06-16T00:00:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
