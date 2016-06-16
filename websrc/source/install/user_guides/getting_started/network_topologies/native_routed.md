@@ -1,7 +1,7 @@
 ---
 layout: "install"
 page_title: "Contiv Native Routed Deployment"
-sidebar_current: "network-topologies-routing"
+sidebar_current: "getting-started-routing"
 description: |-
   Contiv Native Routed Deployment
 ---

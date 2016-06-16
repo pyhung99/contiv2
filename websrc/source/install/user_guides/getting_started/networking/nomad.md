@@ -2,7 +2,7 @@
 layout: "install"
 <<<<<<< HEAD
 page_title: "Install Nomad"
-sidebar_current: "getting-started-Nomad"
+sidebar_current: "getting-started-nomad"
 description: |-
   Installing Contiv Network with Nomad
 ---

@@ -1,7 +1,7 @@
 ---
 layout: "install"
 page_title: "Multicast"
-sidebar_current: "networking-multicast"
+sidebar_current: "getting-started-multicast"
 description: |-
   Multicast in Contiv
 ---

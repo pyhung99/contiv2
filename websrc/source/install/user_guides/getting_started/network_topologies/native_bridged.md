@@ -1,7 +1,7 @@
 ---
 layout: "install"
 page_title: "Native Bridged Contiv Deployment"
-sidebar_current: "network-topologies-bridging"
+sidebar_current: "getting-started-bridging"
 description: |-
   Native Bridged Contiv Deployment
 ---

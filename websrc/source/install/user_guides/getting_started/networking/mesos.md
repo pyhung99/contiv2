@@ -2,7 +2,7 @@
 layout: "install"
 <<<<<<< HEAD
 page_title: "Installing Mesos"
-sidebar_current: "getting-started-Mesos"
+sidebar_current: "getting-started-mesos"
 description: |-
   Installing Mesos
 ---

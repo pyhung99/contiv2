@@ -1,7 +1,7 @@
 ---
 layout: "install"
 page_title: "Documentation"
-sidebar_current: "network-topologies"
+sidebar_current: "getting-started-network-topologies"
 description: |-
   Network Topologies in Contiv
 ---

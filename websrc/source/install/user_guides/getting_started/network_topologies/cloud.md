@@ -1,7 +1,7 @@
 ---
 layout: "install"
 page_title: "Contiv in the Cloud"
-sidebar_current: "network-topologies-cloud"
+sidebar_current: "getting-started-cloud"
 description: |-
   Contiv Deployment in a Cloud
 ---

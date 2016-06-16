@@ -1,7 +1,7 @@
 ---
 layout: "install"
 page_title: "Installing Contiv Network with Vagrant"
-sidebar_current: "network-topologies-vagrant"
+sidebar_current: "getting-started-vagrant"
 description: |-
   Installing a Contiv Network Demo with Vagrant
 ---

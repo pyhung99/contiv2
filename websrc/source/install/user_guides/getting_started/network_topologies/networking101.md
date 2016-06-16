@@ -1,7 +1,7 @@
 ---
 layout: "install"
 page_title: "Documentation"
-sidebar_current: "network-topologies-tutorial"
+sidebar_current: "getting-started-tutorial"
 description: |-
   Containers Network Tutorial
 ---
