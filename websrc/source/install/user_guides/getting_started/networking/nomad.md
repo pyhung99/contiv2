@@ -1,5 +1,6 @@
 ---
 layout: "install"
+<<<<<<< HEAD
 page_title: "Install Nomad"
 sidebar_current: "getting-started-Nomad"
 description: |-
