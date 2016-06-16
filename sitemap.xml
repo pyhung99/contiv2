@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://contiv.io/install/user_guides/networking/policies.html</loc>
+    <lastmod>2016-06-16T00:00:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://contiv.io/articles/2016/03/06/scaling-microservices.html</loc>
     <lastmod>2016-06-16T00:00:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -45,7 +51,12 @@
   <url>
     <loc>http://contiv.io/install/</loc>
     <lastmod>2016-06-16T00:00:00-07:00</lastmod>
-<<<<<<< HEAD
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://contiv.io/install/</loc>
+    <lastmod>2016-06-16T00:00:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -230,6 +241,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://contiv.io/install/user_guides/getting_started/networking/3_netplugin.html</loc>
+    <lastmod>2016-06-16T00:00:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://contiv.io/install/user_guides/getting_started/networking/aci.html</loc>
     <lastmod>2016-06-16T00:00:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -237,6 +254,12 @@
   </url>
   <url>
     <loc>http://contiv.io/install/user_guides/getting_started/networking/basic_server_setup.html</loc>
+    <lastmod>2016-06-16T00:00:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://contiv.io/install/user_guides/getting_started/networking/basic_server_setup2.html</loc>
     <lastmod>2016-06-16T00:00:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -296,6 +319,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://contiv.io/install/user_guides/getting_started/storage/storage_getting_started.html</loc>
+    <lastmod>2016-06-16T00:00:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://contiv.io/install/user_guides/getting_started/storage/swarm.html</loc>
     <lastmod>2016-06-16T00:00:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -322,7 +351,6 @@
   <url>
     <loc>http://contiv.io/install/user_guides/</loc>
     <lastmod>2016-06-16T00:00:00-07:00</lastmod>
-<<<<<<< HEAD
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -353,19 +381,17 @@
   <url>
     <loc>http://contiv.io/install/user_guides/networking/ipam.html</loc>
     <lastmod>2016-06-16T00:00:00-07:00</lastmod>
-<<<<<<< HEAD
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://contiv.io/install/user_guides/networking/networks.html</loc>
     <lastmod>2016-06-16T00:00:00-07:00</lastmod>
-<<<<<<< HEAD
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://contiv.io/install/user_guides/networking/policies.html</loc>
+    <loc>http://contiv.io/install/user_guides/networking/service_discovery.html</loc>
     <lastmod>2016-06-16T00:00:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -463,7 +489,6 @@
   <url>
     <loc>http://contiv.io/install/user_guides/storage/storage_getting_started.html</loc>
     <lastmod>2016-06-16T00:00:00-07:00</lastmod>
-<<<<<<< HEAD
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
