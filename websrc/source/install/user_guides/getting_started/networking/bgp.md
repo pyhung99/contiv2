@@ -1,7 +1,7 @@
 ---
 layout: "install"
 page_title: "L3 BGP setup"
-sidebar_current: "docs-home"
+sidebar_current: "getting-started-bgp"
 description: |-
   Setting up an L3 BGP setup
 ---

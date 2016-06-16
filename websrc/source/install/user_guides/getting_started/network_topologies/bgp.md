@@ -1,7 +1,7 @@
 ---
 layout: "install"
 page_title: "Contiv with BGP"
-sidebar_current: "docs-home"
+sidebar_current: "network-topologies-bgp"
 description: |-
   Contiv with BGP
 ---

@@ -1,7 +1,7 @@
 ---
 layout: "install"
-page_title: "Install Netplugin"
-sidebar_current: "docs-home"
+page_title: "Contiv Network on Baremetal or VMs"
+sidebar_current: "getting-started-vagrant"
 description: |-
   Contiv Networking on Baremetal or VMs
 ---

@@ -6,19 +6,19 @@ description: |-
   Installing a Contiv Network Demo with Vagrant
 ---
 
-## Installing a Contiv Network Demo with Vagrant
+# Installing a Contiv Network Demo with Vagrant
 
 These instructions describe how to connect two containers
 over a network you create. The network has
 its own unique interfaces and lies behind an OVS bridge.
 
-### Prerequisits
+## Prerequisits
 - VirtualBox 5.0.2 or greater
 - Vagrant 1.7.4 or higher
 - Git
 - Make
 
-### Step 1: Clone the project and start the VMs.
+## Step 1: Clone the project and start the VMs.
 
 ```
 $ git clone https://github.com/contiv/netplugin
@@ -26,7 +26,7 @@ $ cd netplugin; make demo
 $ vagrant ssh netplugin-node1
 ```
 
-### Step 2: Create a network and run your containers.
+## Step 2: Create a network and run your containers.
 
 ```
 $ netctl net create contiv-net --subnet=20.1.1.0/24 --gateway=20.1.1.254 --pkt-tag=1001
@@ -34,7 +34,7 @@ $ docker run -itd --name=web --net=contiv-net ubuntu /bin/bash
 $ docker run -itd --name=db --net=contiv-net ubuntu /bin/bash
 ```
 
-### Step 3: Log into a container and test the network.
+## Step 3: Log into a container and test the network.
 
 ```
 $ docker exec -it web /bin/bash

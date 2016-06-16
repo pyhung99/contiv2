@@ -1,7 +1,7 @@
 ---
 layout: "install"
 page_title: "Networking"
-sidebar_current: "docs-home"
+sidebar_current: "networking-networks"
 description: |-
   Networking with Contiv
 ---

@@ -3,7 +3,7 @@ layout: "install"
 page_title: "Documentation"
 sidebar_current: "docs-home"
 description: |-
-  Welcome to the Contiv documentation!
+  Contiv Documentation
 ---
 
 # [User Guides](/install/user_guides)

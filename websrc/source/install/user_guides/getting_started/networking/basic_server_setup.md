@@ -1,18 +1,18 @@
 ---
 layout: "install"
 page_title: "Basic Setup"
-sidebar_current: "docs-home"
+sidebar_current: "getting-started-server-setup"
 description: |-
   Basic Server Setup for Contiv
 ---
 
-## Contiv Networking on Servers
+## Contiv Networking on Servers or VMs
 
 The following procedure describes how to set up a basic Contiv networking cluster with two or more Linux servers.
 
 ### Prerequisites
 
-1. Install Ubuntu 15 or Centos 7 on all server used for the Contiv cluster.
+1. Install Ubuntu 15 or Centos 7 on all servers used for the Contiv cluster.
 
 2. Choose one node to use as the installation and control node for the cluster. Perform all the 
 following steps on that node.

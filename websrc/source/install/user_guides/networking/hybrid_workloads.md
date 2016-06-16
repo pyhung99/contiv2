@@ -1,9 +1,13 @@
 ---
-layout: "docs"
-page_title: "Internal Connectivity"
-sidebar_current: "docs-home"
+layout: "install"
+page_title: "Hybrid Workloads"
+sidebar_current: "networking-hybrid"
 description: |-
-  Networking with Contiv
+  Hybrid Workloads
 ---
 
-# Internal Connectivity
+# Hybrid Workloads
+
+## Providing Connectivity
+
+## Applying Policies

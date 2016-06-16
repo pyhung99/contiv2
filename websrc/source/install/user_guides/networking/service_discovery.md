@@ -1,7 +1,7 @@
 ---
 layout: "install"
 page_title: "Service Discovery"
-sidebar_current: "docs-home"
+sidebar_current: "networking-discovery"
 description: |-
   Networking with Contiv
 ---
