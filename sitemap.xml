@@ -181,12 +181,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://contiv.io/install/user_guides/getting_started/community_talks/</loc>
-    <lastmod>2016-06-17T00:00:00-07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://contiv.io/install/user_guides/getting_started/</loc>
     <lastmod>2016-06-17T00:00:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -230,6 +224,12 @@
   </url>
   <url>
     <loc>http://contiv.io/install/user_guides/getting_started/network_topologies/openstack.html</loc>
+    <lastmod>2016-06-17T00:00:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://contiv.io/install/user_guides/getting_started/network_topologies/vagrant.html</loc>
     <lastmod>2016-06-17T00:00:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -403,18 +403,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://contiv.io/install/user_guides/storage/concepts/</loc>
-    <lastmod>2016-06-17T00:00:00-07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://contiv.io/install/user_guides/storage/concepts/policies/</loc>
-    <lastmod>2016-06-17T00:00:00-07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://contiv.io/install/user_guides/storage/concepts.html</loc>
     <lastmod>2016-06-17T00:00:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -464,24 +452,6 @@
   </url>
   <url>
     <loc>http://contiv.io/install/user_guides/storage/policies/snapshots.html</loc>
-    <lastmod>2016-06-17T00:00:00-07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://contiv.io/install/user_guides/storage/storage_architecture.html</loc>
-    <lastmod>2016-06-17T00:00:00-07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://contiv.io/install/user_guides/storage/storage_config.html</loc>
-    <lastmod>2016-06-17T00:00:00-07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://contiv.io/install/user_guides/storage/storage_getting_started.html</loc>
     <lastmod>2016-06-17T00:00:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
