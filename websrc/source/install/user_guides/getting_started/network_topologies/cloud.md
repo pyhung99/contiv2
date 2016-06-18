@@ -6,4 +6,4 @@ description: |-
   Contiv Deployment in a Cloud
 ---
 
-## Contiv in the Cloud
+# Contiv in the Cloud

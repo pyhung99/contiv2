@@ -5,10 +5,11 @@ sidebar_current: "getting-started-bgp"
 description: |-
   Contiv with BGP
 ---
+# Contiv with BGP
 
 This documents provides steps to bring up contiv infrastructure in a L3 native vlan mode. 
 
-#What does L3 capabilty facilitate in a Contiv container infrastructure ?
+#What does L3 capabilty facilitate in a Contiv container infrastructure?
 
 -  Enable communication between containers on different hosts natively using vlan encap 
 -  Enables communication between containers and non containers 
@@ -20,7 +21,7 @@ This documents provides steps to bring up contiv infrastructure in a L3 native v
 
 
 #Typical worklow:
-- Configure Bgp on the Leaf switches Leaf 1 and Leaf 2 
+- Configure BGP on the Leaf switches Leaf 1 and Leaf 2 
 - Bring up Contiv – netplugin and netmaster
 - Create a Vlan network with subnet pool and gateway
 - Add Bgp configuration on the host, to peer with the uplink leaf

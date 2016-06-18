@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://contiv.io/install/user_guides/networking/policies.html</loc>
-    <lastmod>2016-06-17T00:00:00-07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://contiv.io/articles/2016/03/06/scaling-microservices.html</loc>
     <lastmod>2016-06-17T00:00:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -187,6 +181,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://contiv.io/install/user_guides/getting_started/community_talks/</loc>
+    <lastmod>2016-06-17T00:00:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://contiv.io/install/user_guides/getting_started/</loc>
     <lastmod>2016-06-17T00:00:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -235,12 +235,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://contiv.io/install/user_guides/getting_started/network_topologies/README.html</loc>
-    <lastmod>2016-06-17T00:00:00-07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://contiv.io/install/user_guides/getting_started/networking/3_netplugin.html</loc>
     <lastmod>2016-06-17T00:00:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -254,12 +248,6 @@
   </url>
   <url>
     <loc>http://contiv.io/install/user_guides/getting_started/networking/basic_server_setup.html</loc>
-    <lastmod>2016-06-17T00:00:00-07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://contiv.io/install/user_guides/getting_started/networking/basic_server_setup2.html</loc>
     <lastmod>2016-06-17T00:00:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -386,6 +374,12 @@
   </url>
   <url>
     <loc>http://contiv.io/install/user_guides/networking/networks.html</loc>
+    <lastmod>2016-06-17T00:00:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://contiv.io/install/user_guides/networking/policies.html</loc>
     <lastmod>2016-06-17T00:00:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

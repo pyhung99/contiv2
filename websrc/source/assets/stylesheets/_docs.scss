@@ -49,6 +49,8 @@ body.layout-install{
     //all li
     li{
       position: relative;
+      list-style-type: none;
+      padding-bottom: 10px;
 
       > a{
         // padding: 10px 8px;
@@ -115,7 +117,7 @@ body.layout-install{
           top: 15px;
           left: $parent-default-state;
           overflow: hidden;
-          opacity: .3;
+          opacity: .75;
           background: url(triangle-sprite.png) 0 -13px no-repeat;
           @include img-retina("triangle-sprite.png", "triangle-sprite@2x.png", 5px, 19px);
         }

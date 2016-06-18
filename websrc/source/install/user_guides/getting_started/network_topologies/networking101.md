@@ -8,9 +8,8 @@ description: |-
 
 # Containers Networking Tutorial
 
-This tutorial is a step-by-step set of container networking examples.
-It introduces many of the key concepts in containerized applications and
-virtual networking, and demonstrates how they fit together.
+This tutorial is a set of step-by-step container networking examples.
+It introduces many of the key concepts in how to network containerized applications.
 
 ## Chapter 0: Software Setup
 This tutorial requires a virtual machine (VM) software environment and the
@@ -942,7 +941,7 @@ Finally, check the inter-container connectivity and external
 connectivity for the containers scheduled across multiple hosts:
 
 ```
-agrant@tutorial-node1:~$ docker exec -it contiv-cluster-c1 /bin/sh
+vagrant@tutorial-node1:~$ docker exec -it contiv-cluster-c1 /bin/sh
 / # 
 / # 
 / # 

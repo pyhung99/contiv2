@@ -16,6 +16,8 @@ description: |-
 
 ## [Cloud Deployment](/install/user_guides/getting_started/network_topologies/cloud.html)
 
+## [Vagrant Demo Setup](/install/user_guides/getting_started/network_topologies/vagrant.html)
+
 ## [Containers Networking Tutorial](/install/user_guides/getting_started/network_topologies/networking101.html)
 
 ## [Vagrant setup (mini demo on laptop)](/install/user_guides/getting_started/network_topologies/vagrant.html)
