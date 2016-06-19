@@ -1,7 +1,7 @@
 ---
 layout: "install"
 page_title: "Storage"
-sidebar_current: "docs-home"
+sidebar_current: "storage"
 description: |-
   Storage in Contiv
 ---

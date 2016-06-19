@@ -1,9 +1,9 @@
 ---
 layout: "install"
 page_title: "Install Kubernetes"
-sidebar_current: "getting-started-vagrant"
+sidebar_current: "getting-started-k8s"
 description: |-
-  Installing netplugin.
+  Installing Kubernetes
 ---
 
 ## Getting Started with Kubernetes

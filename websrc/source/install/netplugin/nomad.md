@@ -3,7 +3,7 @@ layout: "install"
 page_title: "Install Nomad"
 sidebar_current: "getting-started-Nomad"
 description: |-
-  Installing netplugin.
+  Installing Contiv Network with Nomad
 ---
 
 ## Getting Started with Nomad

@@ -1,3 +1,11 @@
+---
+layout: "install"
+page_title: "Contiv Storage CLI"
+sidebar_current: "api-storage"
+description: |-
+  Storage API
+---
+
 ## Contiv Storage Command Line Reference
 
 The `volcli` command controls the `volmaster`, which in turn is referenced by `volplugin` for local management of storage. 

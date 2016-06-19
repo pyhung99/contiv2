@@ -1,19 +1,17 @@
 ---
 layout: "install"
-page_title: "User Guides"
-sidebar_current: "user_guides"
+page_title: "Storage Policies"
+sidebar_current: "storage-policies"
 description: |-
-  Contiv User Guides
+  Storage Policies in Contiv
 ---
 
-# [Getting Started](/install/user_guides/getting_started)
-How to get up and running quickly.
+# Storage Policies in Contiv
 
-# [Network](/install/user_guides/networking)
-In-depth discussion of Contiv Network.
+## [Allocation](/install/user_guides/storage/policies/allocation.html)
 
-# [Storage](/install/user_guides/storage)
-All about Contiv Storage.
+## [IOPs Rate Limiting](/install/user_guides/storage/policies/rate_limiting.html)
 
-# [Cluster](/install/user_guides/cluster)
-How to build, commission, and decommission clusters using Swarm.
+## [Snapshots](/install/user_guides/storage/policies/snapshots.html)
+
+## [Filesystem](/install/user_guides/storage/policies/filesystem.html)

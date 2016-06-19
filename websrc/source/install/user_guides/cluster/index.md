@@ -1,7 +1,7 @@
 ---
 layout: "install"
 page_title: "Clusters"
-sidebar_current: "docs-home"
+sidebar_current: "cluster"
 description: |-
   Clusters in Contiv
 ---
