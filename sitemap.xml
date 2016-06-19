@@ -355,7 +355,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://contiv.io/install/user_guides/networking/hybrid_workloads.html</loc>
+    <loc>http://contiv.io/install/user_guides/networking/</loc>
     <lastmod>2016-06-18T00:00:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -451,7 +451,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://contiv.io/install/user_guides/networking/</loc>
+    <loc>http://contiv.io/install/user_guides/networking/hybrid_workloads.html</loc>
     <lastmod>2016-06-18T00:00:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
