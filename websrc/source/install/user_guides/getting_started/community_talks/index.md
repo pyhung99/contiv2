@@ -16,8 +16,6 @@ description: |-
 ### Contiv L2 with Docker Demo
 <iframe width="420" height="315" src="https://www.youtube.com/embed/ogqMpesZMtE" frameborder="0" allowfullscreen></iframe>
  
-## Storage
-
 ## Cluster
 
 ### Cluster Demo Video
