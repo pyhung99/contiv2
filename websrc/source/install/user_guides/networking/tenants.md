@@ -1,9 +1,9 @@
 ---
 layout: "install"
 page_title: "Tenants"
-sidebar_current: "docs-home"
+sidebar_current: "networking-tenants"
 description: |-
-  Networking with Contiv
+  Tenants
 ---
 
 # Tenants

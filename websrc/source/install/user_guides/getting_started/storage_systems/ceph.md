@@ -1,7 +1,7 @@
 ---
 layout: "install"
 page_title: "Ceph"
-sidebar_current: "docs-home"
+sidebar_current: "storsystems-ceph"
 description: |-
   Getting Started with Contiv and Ceph
 ---

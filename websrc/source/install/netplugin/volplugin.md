@@ -1,13 +1,13 @@
 ---
 layout: "install"
-page_title: "Install Docker"
+page_title: "Installing Contiv Storage with Docker and Vagrant"
 sidebar_current: "getting-started-vagrant"
 description: |-
-  Installing netplugin.
+  Installing Contiv Storage with Docker and Vagrant
 ---
 
-# volplugin
-Contiv Volume plugin [volplugin](https://github.com/contiv/volplugin "Title")
+# Contiv Storage
+Contiv Volume [volplugin](https://github.com/contiv/volplugin "Title")
 is a Ceph volume driver, and policy system that works well within a Docker
 ecosystem. It can automatically move your storage with your containers, rather
 than pinning containers to specific hosts to take advantage of their storage.

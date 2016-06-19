@@ -1,9 +1,9 @@
 ---
 layout: "install"
-page_title: "Storage"
-sidebar_current: "docs-home"
+page_title: "API References"
+sidebar_current: "api"
 description: |-
-  Storage in Contiv
+  Contiv API References
 ---
 
 # API Reference

@@ -1,7 +1,7 @@
 ---
 layout: "install"
 page_title: "Storage Systems"
-sidebar_current: "docs-home"
+sidebar_current: "storsystems"
 description: |-
   Getting Started with Contiv and Storage Servers
 ---

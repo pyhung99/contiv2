@@ -1,16 +1,16 @@
 ---
 layout: "install"
 page_title: "Networking"
-sidebar_current: "docs-home"
+sidebar_current: "networking"
 description: |-
   Networking with Contiv
 ---
 
 # Networking with Contiv
 
-## [Terminology and Concepts](/install/user_guides/getting_started/networking/concepts)
+## [Terminology and Concepts](/install/user_guides/getting_started/networking/concepts.html)
 
-## [Networks](/install/user_guides/getting_started/networking/networks)
+## [Networks](/install/user_guides/getting_started/networking/networks.html)
 
 ## Policies
 

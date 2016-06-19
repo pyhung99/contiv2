@@ -1,9 +1,9 @@
 ---
 layout: "install"
-page_title: "Install Mesos"
+page_title: "Installing Mesos"
 sidebar_current: "getting-started-Mesos"
 description: |-
-  Installing netplugin.
+  Installing Mesos
 ---
 
 ## Getting Started with Mesos

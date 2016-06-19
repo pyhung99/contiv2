@@ -1,9 +1,19 @@
 ---
 layout: "install"
 page_title: "Networking Terminology and Concepts"
-sidebar_current: "docs-home"
+sidebar_current: "networking-concepts"
 description: |-
-  Networking with Contiv
+  Networking Terminology and Concepts
 ---
 
-# Networking Terminology and Concepts 
+# Terminology and Concepts
+
+## Intent
+
+## Policy
+
+## Tenant
+
+## Endpoint Group
+
+## Network

@@ -1,7 +1,7 @@
 ---
-layout: "docs"
+layout: "install"
 page_title: "Native Bridged Contiv Deployment"
-sidebar_current: "docs-home"
+sidebar_current: "getting-started-bridging"
 description: |-
   Native Bridged Contiv Deployment
 ---

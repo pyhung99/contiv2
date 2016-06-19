@@ -1,9 +1,9 @@
 ---
 layout: "install"
 page_title: "ACI setup"
-sidebar_current: "docs-home"
+sidebar_current: "networking-topologies-aci""
 description: |-
-  Setting up ACI.
+  Setting up Contiv Networking in ACI
 ---
 
 ## Setting Up Contiv Networking in ACI 

@@ -10,12 +10,15 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script src="../../assets/javascripts/nocollapse.js"></script>
     <title>Multicast - Contiv</title>
 
+<<<<<<< HEAD
     <link href="/assets/stylesheets/application-b0b90eb3.css" rel="stylesheet"/>
+=======
+    <link href="/assets/stylesheets/application-5dd52135.css" rel="stylesheet"/>
+>>>>>>> bd918f2e3b535cd38882c57187fe30feb1c90881
 
-    <!--[if lt IE 9]><script src="/assets/javascripts/html5shiv-099439cc.js"></script><script src="/assets/javascripts/respond.min-1eb35b04.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="/assets/javascripts/html5shiv-ccddc50c.js"></script><script src="/assets/javascripts/respond.min-1eb35b04.js"></script><![endif]-->
 
     
   </head>
@@ -28,7 +31,6 @@
       
         <div class="navbar-header">
           <div class="navbar-brand">
-            <a href="http://www.cisco.com"><img class="logo" src="/assets/images/cisco-b5d79772.png">
               <a class="logo" href="/">Contiv</a>
             </a>
           </div>
@@ -98,161 +100,158 @@ GitHub</a></li>
 	<div class="row">
 		<div class="col-md-3 col-sm-3 col-xs-12">
 					<div class="docs-sidebar hidden-print affix-top" role="complementary">
-			<hr><p>
+			<hr>
 			<h3>User Guide</h3>
 			<ul class="nav docs-sidenav">
-				<li>
-					<a data-toggle="collapse" href="#collapse21" href="/install/user_guides/getting_started/index.html">Getting Started ...</a>
-						<div id="collapse21" class="panel-collapse collapse">
-						
-						<ul class="nav nav-visible">
+				<li class="active">
+					<a data-toggle="collapse" href="#collapse100" href="/install/user_guides/getting_started/index.html">Getting Started</a>
+				<div id="collapse100" class="panel-collapse collapse">
+
+					<ul class="nav nav-visible">
 						<li>
-
-							<a data-toggle="collapse" href="#collapse1" href="/install/user_guides/getting_started/networking/index.html">Networking ... </a>
-							<div id="collapse1" class="panel-collapse collapse">
-
-									<ul>
-										<li><a href="/install/user_guides/getting_started/networking/swarm.html">Docker Swarm</a><br></li>
-										<li><a href="/install/user_guides/getting_started/networking/k8s.html">Kubernetes</a><br></li>
-										<li><a href="/install/user_guides/getting_started/networking/mesos.html">Mesos</a><br></li>
-										<li><a href="/install/user_guides/getting_started/networking/nomad.html">Nomad</a><br></li>
-									</ul>
-							</div>
+							<a href="/install/user_guides/getting_started/community_talks/index.html">Talks and Demonstrations</a>
 						</li>
 						<li>
-							<a data-toggle="collapse" href="#collapse1200" href="/install/user_guides/getting_started/network_topologies/index.html">Network Topologies ... </a>
-							<div id="collapse1200" class="panel-collapse collapse">
+							<a data-toggle="collapse" href="#collapse110" href="/install/user_guides/getting_started/networking/index.html">Networking</a>
+									<div id="collapse110" class="panel-collapse collapse">
+										<ul>
+											<li>
+													<a href="/install/user_guides/getting_started/networking/vagrant.html"> Development Setup with Vagrant</a>
+											</li>
+											<li class="active">
+													<a href="/install/user_guides/getting_started/networking/mcast.html">Multicast Demonstration</a>
+											</li>
+											<li>
+													<a href="/install/user_guides/getting_started/networking/basic_server_setup.html">Basic Server Setup</a>
+											</li>
+											<li>
+													<a href="/install/user_guides/getting_started/networking/swarm.html">Docker Swarm</a>
+											</li>
+											<li>
+													<a href="/install/user_guides/getting_started/networking/k8s.html">Kubernetes</a>
+											</li>
+											<li>
+													<a href="/install/user_guides/getting_started/networking/mesos.html">Mesos</a>
+											</li>
+											<li>
+													<a href="/install/user_guides/getting_started/networking/nomad.html">Nomad</a>
+											</li>
+											<li>
+													<a href="/install/user_guides/getting_started/networking/bgp.html">BGP</a>
+											</li>
+										</ul>
+									</div>
+
+						</li>
+						<li>
+							<a data-toggle="collapse" href="#collapse120" href="/install/user_guides/getting_started/network_topologies/index.html">Network Topologies</a>
+							<div id="collapse120" class="panel-collapse collapse">
 								<ul>
-									<li><a href="/install/user_guides/getting_started/network_topologies/native_routed.html">Native Routing</a></li>
-									<li><a href="/install/user_guides/getting_started/network_topologies/native_bridged.html">Native Bridging</a></li>
-									<li><a href="/install/user_guides/getting_started/network_topologies/openstack.html">Openstack Deployment</a></li>
-									<li><a href="/install/user_guides/getting_started/network_topologies/cloud.html">Cloud Deployment</a></li>
-									<li><a href="/install/user_guides/getting_started/network_topologies/vagrant.html">Vagrant Setup</a></li>
-									<li><a href="install/user_guides/getting_started/network_topologies/network_tutorial.html">Containers Networking Tutorial</a></li>
+									<li>
+										<a href="/install/user_guides/getting_started/network_topologies/native_routed.html">Native Routing</a>
+									</li>
+									<li>
+										<a href="/install/user_guides/getting_started/network_topologies/native_bridged.html">Native Bridging</a>
+									</li>
+									<li>
+										<a href="/install/user_guides/getting_started/network_topologies/openstack.html">Openstack Deployment</a>
+									</li>
+									<li>
+										<a href="/install/user_guides/getting_started/network_topologies/cloud.html">Cloud Deployment</a>
+									</li>
+									<li>
+										<a href="/install/user_guides/getting_started/network_topologies/vagrant.html">Vagrant Setup</a>
+									</li>
+									<li>
+										<a href="/install/user_guides/getting_started/network_topologies/networking101.html">Containers Networking Tutorial</a>
+									</li>
+									<li>
+										<a href="/install/user_guides/getting_started/network_topologies/bgp.html">BGP</a>
+									</li>
 								</ul>
 							</div>
 						</li>
 						<li>
-						<a data-toggle="collapse" href="#collapse1300" href="/install/user_guides/getting_started/storage/index.html">Storage ... </a>
-							<div id="collapse1300" class="panel-collapse collapse">
-								<ul>
+							<a data-toggle="collapse" href="#collapse130" href="/install/user_guides/getting_started/storage/index.html">Storage </a>
+							<div id="collapse130" class="panel-collapse collapse">
+								<ul class="nav">
 									<li><a href="/install/user_guides/getting_started/storage/swarm.html">Docker Swarm</a></li>
 								</ul>
 							</div>
 						</li>
 						<li>
-						<a data-toggle="collapse" href="#collapse1400" href="/install/user_guides/getting_started/storage_systems/index.html">Storage Systems ... </a>
-							<div id="collapse1400" class="panel-collapse collapse">
-								<ul>
-									<li><a href="/install/user_guides/getting_started/storage/ceph.html">Ceph</a></li>
-									<li><a href="/install/user_guides/getting_started/storage/nfs.html">NFS</a></li>
-
+							<a data-toggle="collapse" href="#collapse140" href="/install/user_guides/getting_started/storage_systems/index.html">Storage Systems</a>
+							<div id="collapse140" class="panel-collapse collapse">
+								<ul class="nav">
+									<li><a href="/install/user_guides/getting_started/storage_systems/ceph.html">Ceph</a></li>
+									<li><a href="/install/user_guides/getting_started/storage_systems/nfs.html">NFS</a></li>
 								</ul>
 							</div>
 						</li>
-						<li>
-						<a data-toggle="collapse" href="#collapse1500" href="/install/user_guides/getting_started/community_talks/index.html">Community Talks ... </a>
-							<div id="collapse1500" class="panel-collapse collapse">
-								<ul>
-									<li><a href="https://www.youtube.com/playlist?list=PL2k86RlAekM_g6csRwSRQAWvln5SmgicN">YouTube Links</a></li>
-								</ul>
-							</div>
-						</li>
-
 					</ul>
 				</div>
-					<a data-toggle="collapse" href="#collapse2000" href="/install/user_guides/networking/index.html">Networking ...</a>
-					<div id="collapse2000" class="panel-collapse collapse">
-
+				</li>
+				<li><a data-toggle="collapse" href="#collapse200" href="/install/user_guides/networking/index.html">Networking</a>
+					<div id="collapse200" class="panel-collapse collapse">
 						<ul class="nav nav-visible">
 							<li><a href="/install/user_guides/networking/concepts.html">Terminology</a></li>
 							<li><a href="/install/user_guides/networking/networks.html">Networks</a></li>
 							<li><a href="/install/user_guides/networking/tenants.html">Tenants</a></li>
-							<li>
-								<a data-toggle="collapse" href="#collapse2100" href="/install/user_guides/networking/policies.html">Policies ... </a></li>
-									<div id="collapse2100" class="panel-collapse collapse">
-										<ul>
-											<li><a href="/install/user_guides/networking/policies.html#Security">Security</a></li>
-											<li><a href="/install/user_guides/networking/policies.html#Bandwidth">Bandwidth</a></li>
-											<li><a href="/install/user_guides/networking/policies.html#Prioritization">Prioritization</a></li>
-											<li><a href="/install/user_guides/networking/policies.html#Loadbalancing">Loadbalancing</a></li>
-										</ul>
-									</div>
-							<li>
-								<a data-toggle="collapse" href="#collapse2200" href="/install/user_guides/getting_started/networking/external_connectivity.html">External Connectivity ... </a>
-								<div id="collapse2200" class="panel-collapse collapse">
-									<ul>
-										<li><a href="/install/user_guides/getting_started/networking/external_connectivity.html#Rerouted_Network">Rerouted Network</a></li>
-										<li><a href="/install/user_guides/getting_started/networking/external_connectivity.html#Bridged_Network">Bridged Network</a></li>
-										<li><a href="/install/user_guides/getting_started/networking/external_connectivity.html#Overlay_Cloud_Network">Overlay Cloud Network</a></li>
-										<li><a href="/install/user_guides/getting_started/networking/external_connectivity.html#Cisco_ACI">Cisco ACI</a></li>
-										</li>
-									</ul>
-								</div>
-							</li>
-							<li><a href="/install/user_guides/getting_started/networking/service_discovery.html">Service Discovery</a></li>
-							<li><a href="/install/user_guides/getting_started/networking/ipam.html">IP Address Management</a></li>
-							<li>
-							<a data-toggle="collapse" href="#collapse2300" href="/install/user_guides/getting_started/networking/hybrid_workloads.html">Hybrid Workloads ... </a></li>
-								<div id="collapse2300" class="panel-collapse collapse">
-								<ul>
-									<li><a href="/install/user_guides/getting_started/networking/hybrid_workloads.html#Providing_Connectivity">Providing Connectivity</a></li>
-									<li><a href="/install/user_guides/getting_started/networking/hybrid_workloads.html#Applying_Policies">Applying Policies</a></li>
-								</ul>
+							<li><a href="/install/user_guides/networking/policies.html">Policies</a></li>
+							<li><a href="/install/user_guides/networking/external_connectivity.html">External Connectivity</a></li>
+							<li><a href="/install/user_guides/networking/service_discovery.html">Service Discovery</a></li>
+							<li><a href="/install/user_guides/networking/ipam.html">IP Address Management</a></li>
+							<li> <a href="/install/user_guides/networking/hybrid_workloads.html">Hybrid Workloads</a></li>
 						</ul>
 					</div>
-					<a data-toggle="collapse" href="#collapse3000" href="/install/user_guides/getting_started/storage/index.html">Storage ...</a>
-					<div id="collapse3000" class="panel-collapse collapse">
-					
+				</li>
+				<li><a data-toggle="collapse" href="#collapse300" href="/install/user_guides/storage/index.html">Storage</a>
+					<div id="collapse300" class="panel-collapse collapse">
 						<ul class="nav nav-visible">
-							<li><a href="/install/user_guides/getting_started/storage/concepts.html">Terminology</a></li>
-							<li>
-								<a data-toggle="collapse" href="#collapse3100" href="/install/user_guides/getting_started/storage/policies.html">Policies ...</a></li>
-								<div id="collapse3100" class="panel-collapse collapse">
-									<ul>
-										<li><a href="/install/user_guides/getting_started/storage/policies/allocation.html">Allocation</a></li>
-										<li><a href="/install/user_guides/getting_started/storage/policies/rate_limiting.html">IOPs Rate Limiting</a></li>
-										<li><a href="/install/user_guides/getting_started/storage/policies/snapshots.html">Snapshots</a></li>
-										<li><a href="/install/user_guides/getting_started/storage/policies/filesystem.html">FileSystem</a></li>
-										</li>
+							<li><a href="/install/user_guides/storage/concepts.html">Terminology</a></li>
+							<li><a data-toggle="collapse" href="#collapse320" href="/install/user_guides/storage/policies/index.html">Policies</a></li>
+								<div id="collapse320" class="panel-collapse collapse">
+									<ul class="nav nav-visible">
+										<li>
+											<a href="/install/user_guides/storage/policies/allocation.html">Allocation</a></li>
+										<li>
+											<a href="/install/user_guides/storage/policies/rate_limiting.html">IOPs Rate Limiting</a></li>
+										<li>
+											<a href="/install/user_guides/storage/policies/snapshots.html">Snapshots</a></li>
+										<li>
+											<a href="/install/user_guides/storage/policies/filesystem.html">FileSystem</a></li>
 									</ul>
 								</div>
-							<li><a href="/install/user_guides/getting_started/storage/ceph.html">Ceph</a></li>
-							<li><a href="/install/user_guides/getting_started/storage/nfs.html">NFS</a></li>
-						</ul></div>
-
-					<a data-toggle="collapse" href="#collapse4000" href="/install/user_guides/getting_started/index.html">Cluster ...</a>
-					<div id="collapse4000" class="panel-collapse collapse">
-					<ul class="nav nav-visible">
-							<li><a href="/install/user_guides/getting_started/concepts.html">Terminology</a></li>
-							<li><a href="/install/user_guides/getting_started/discovery.html">Discovery</a></li>
-							<li><a href="/install/user_guides/getting_started/commissioning.html">Commissioning</a></li>
-							<li><a href="/install/user_guides/getting_started/decommissioning.html">Decommissioning</a></li>
-						</ul></div>
+							<li><a href="/install/user_guides/storage/ceph.html">Ceph</a></li>
+							<li><a href="/install/user_guides/storage/nfs.html">NFS</a></li>
+							<li><a href="/install/user_guides/storage/disk_management.html">Disk Management</a></li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<a data-toggle="collapse" href="#collapse400" href="/install/user_guides/cluster/index.html">Cluster</a>
+					<div id="collapse400" class="panel-collapse collapse">
+						<ul class="nav nav-visible">
+								<li><a href="/install/user_guides/cluster/concepts.html">Terminology</a></li>
+								<li><a href="/install/user_guides/cluster/discovery.html">Discovery</a></li>
+								<li><a href="/install/user_guides/cluster/commissioning.html">Commissioning and Decommissioning</a></li>
+						</ul>
+					</div>
 				</li>
 				<hr><p>
 				<h3>Reference</h3>
 					<ul class="nav nav-visible">
-						<li><a href="/install/html">Network API Reference</a><br></li>
-						<li><a href="/install/.html">Storage API Reference</a><br></li>
-						<li><a href="/install/.html">Cluster API Reference</a><br></li>
+						<li><a href="https://godoc.org/github.com/contiv/netplugin">Network API Reference</a><br></li>
+						<li><a href="https://godoc.org/github.com/contiv/contivmodel/client">Storage API Reference</a><br></li>
+						<li><a href="https://godoc.org/github.com/contiv/cluster">Cluster API Reference</a><br></li>
 					</ul>
 				<hr><p>
 				<h3>Examples</h3>
 					<ul class="nav nav-visible">
-						<li><a href="/install/.html">Contiv Example 1</a><br></li>
-						<li><a href="/install/.html">Contiv Example 2</a><br></li>
-						<li><a href="/install/.html">Contiv Example 3</a><br></li>
+						<li><a href="/install/samples/index.html">Example Use Cases</a><br></li>
 					</ul>
 				<hr><p>
-				<h3>Support</h3>
-					<ul class="nav nav-visible">
-						<li><a href="/install/.html">Slack Channel</a><br></li>
-						<li><a href="/install/.html">GitHub</a><br></li>
-						<li><a href="/install/.html">Stackoverflow</a><br></li>
-						<li><a href="/install/.html">Mailing List</a><br></li>
-						<li><a href="/install/.html">FAQs</a><br></li>
-					</ul>
+
 				</li>
 			</ul>
 		</div>
@@ -261,39 +260,60 @@ GitHub</a></li>
 		<div id="main-content" class="col-sm-9 col-md-9 col-xs-12" role="main">
 			<div class="bs-docs-section">
 				
-	<h2>Demonstrating Multicast in Contiv</h2>
-<p>This document illustrates how to demonstrate multicast in a Contiv network.</p>
-<p>For the demonstration you run two containers, one on each VM. You create a VLAN network
-and run a sender and a receiver multicast application.</p>
+	<h1>Demonstrating Multicast in Contiv</h1>
+<p>This page describes how to demonstrate multicast in a Contiv network.
+There are two demonstrations: The first demonstrates mcast between
+two containers; the second demonstrates multicast between a container
+and a VM.</p>
 
-<h4>Step 1: Clone the Contiv Network repository.</h4>
-<p>Clone the Contiv Network repository from GitHub as follows.</p>
+<h2>Multicast Between Two Containers</h2>
+<p>In this demonstration, you run two containers on two separate VMs. 
+You then create a VLAN network and run a sender and a receiver multicast application.</p>
+
+<h3>Step 1: Clone the Contiv Network Repository</h3>
+<p>Clone the Contiv Network repository from GitHub as follows:</p>
 <pre class="highlight plaintext"><code>$ git clone https://github.com/contiv/netplugin
 $ cd netplugin
 </code></pre>
 
-<h4>Step 2: Create the VMs.</h4>
-<p>Create the VMs, then log into the first VM (Node 1) and create a multicast-enabled network as shown below.</p>
+<h3>Step 2: Create the VMs</h3>
+<p>Create the VMs and log into one of the VMs using the following commands:</p>
 <pre class="highlight plaintext"><code>$ make demo
 $ vagrant ssh netplugin-node1
-netplugin-node1~$ netctl net create contiv-net --encap=vlan --subnet=20.1.1.0/24 --gateway=20.1.1.254 --pkt-tag=1010
+netplugin-node1~$
 </code></pre>
 
-<h4>Step 3: Run a Docker container and start the multicast sender application.</h4>
-<p>Use the commands below to start a new CentOS Docker container, log into the container, and start the <strong>mcast</strong> application.
- (The <strong>mcast.py</strong> command does not return to a prompt.)</p>
+<h3>Step 3: Create a Network</h3>
+<p>Use the following command to create a multicast-enabled network:</p>
+<pre class="highlight plaintext"><code>netplugin-node1~$ netctl net create contiv-net --encap=vlan --subnet=20.1.1.0/24 --gateway=20.1.1.254 --pkt-tag=1010
+</code></pre>
+
+<h3>Step 4: Start a Multicast Sender</h3>
+<p>On the same VM, run a Docker container and determine the IP address of its interface on the <code>contiv-net</code> network.<br>
+The commands below start a new CentOS Docker container and display information about that container.
+ (The <code>mcast.py</code> command does not return to a prompt.)</p>
 <pre class="highlight plaintext"><code>netplugin-node1~$ docker pull qiwang/centos7-mcast
 netplugin-node1~$ docker run -it --name=msender --net=contiv-net qiwang/centos7-mcast /bin/bash
-root@9f4e7fd418c5:/# cd /root
+netplugin-node1~$ docker inspect msender
+</code></pre>
+<p>The <code>docker inspect</code> command displays a long list of information about the <code>msender</code> container.
+Near the bottom is a <code>NetworkSettings</code> section. Find the container&#39;s IP address on the <code>contiv-net</code> network,
+that is, <code>20.1.1.0/24</code>. Make a note of this IP address.</p>
+
+<h3>Step 5: Start a Multicast Sender</h3>
+<p>The following commands log into the container and start the <strong>mcast</strong> application.
+ (The <code>mcast.py</code> command does not return to a prompt.)</p>
+<pre class="highlight plaintext"><code>root@9f4e7fd418c5:/# cd /root
 root@9f4e7fd418c5:/# ./mcast.py -s -i eth0
 </code></pre>
 
-<h4>Step 4: Log in to Node 2</h4>
-<p>Log in to the second VM (Node 2):</p>
+<h2>Step 6: Log into the Other Node</h2>
+<p>In another shell window, log into the second VM (Node 2):</p>
 <p><code>vagrant ssh netplugin-node2</code></p>
 
-<h4>Step 5: Run a Docker container in the network and start the multicast receiver.</h4>
-<p>Use the Docker commands below to start a new Docker container, then log into the container.</p>
+<h3>Step 7: Start a Multicast Receiver</h3>
+<p>On Node 2, Run a Docker container on the network and start the multicast receiver
+as follows:</p>
 <pre class="highlight plaintext"><code>netplugin-node2~$ docker pull qiwang/centos7-mcast
 netplugin-node2~$ docker run -it --name=mreceiver --net=contiv-net qiwang/centos7-mcast /bin/bash
 root@564f7f4424c1:/# cd /root
@@ -303,43 +323,51 @@ root@564f7f4424c1:/# ./mcast.py -i eth0
 ('20.1.1.3', 35624)  '1453881423.977554'
 ('20.1.1.3', 35624)  '1453881424.978941'
 </code></pre>
-<p>where 20.1.1.3 is the IP that was assigned in this case to container msender.</p>
+<p>Substitute the IP that you noted for the <code>msender</code> container if it is different from  <code>20.1.1.3</code>.</p>
 
-<h3>Steps to run sender and receiver multicasts between a container and a host VM</h3>
+<h2>Multicast Between a Container and a VM</h2>
+<p>In this demonstration, you run two separate VMs. 
+You create a VLAN network and connect a bridge to the first VM and run a sender application on the VM.
+Finally, you create a Docker container on the second VM and run a receiver application on that container.D</p>
 
-<h4>Step 1: Create demo VMs</h4>
-<p>Use the commands  below to start the VMs and create a multicast-enabled network.</p>
+<h3>Step 1: Create the VMs</h3>
+<p>Use the following commands to start the VMs and create a multicast-enabled network called <code>contiv-net</code>.</p>
 <pre class="highlight plaintext"><code>$ make demo
 $ vagrant ssh netplugin-node1
 netplugin-node1~$ netctl net create contiv-net --encap=vlan --subnet=20.1.1.0/24 --gateway=20.1.1.254 --pkt-tag=1010
 </code></pre>
 
-<h4>Step 2: Create a port on the OVS with the network tag used for contiv-net</h4>
-<pre class="highlight plaintext"><code>netplugin-node1~$ sudo ovs-vsctl add-port contivVlanBridge inb01 -- set interface inb01 type=internal
+<h3>Step 2: Create a Port</h3>
+<p>Use the following commands to create a port on an Open vSwitch (OVS) with the network tag used for <code>contiv-net</code>:
+<code>
+netplugin-node1~$ sudo ovs-vsctl add-port contivVlanBridge inb01 -- set interface inb01 type=internal
 netplugin-node1~$ sudo ovs-vsctl set port inb01 tag=1010
 netplugin-node1~$ sudo ifconfig inb01 30.1.1.8/24
-</code></pre>
+</code></p>
 
-<h4>Step 3: Launch a multicast sender application</h4>
-<p>Download and launch the <strong>mcast.py</strong> sender application.</p>
+<h3>Step 3: Launch a Multicast Sender Application</h3>
+<p>Download and launch the <strong>mcast.py</strong> sender application as follows:</p>
 <pre class="highlight plaintext"><code>netplugin-node1~$ git clone https://github.com/leslie-wang/py-multicast-example.git
 netplugin-node1~$ cd py-multicast-example
 netplugin-node1~$ sudo ./mcast.py -s -i inb01
 </code></pre>
 
-<h4>Step 4: Login to netplugin-node2</h4>
-<p><code>$ vagrant ssh netplugin-node2</code></p>
+<h3>Step 4: Log into Node 2</h3>
+<p>In another shell window, log into Node 2:</p>
+<pre class="highlight plaintext"><code>$ vagrant ssh netplugin-node2
+</code></pre>
 
-<h4>Step 5: Run a Docker container in the network created and launch multicast receiver.</h4>
-<pre class="highlight plaintext"><code>netplugin-node2~$ docker pull qiwang/centos7-mcast
+<h4>Step 5: Run a Docker Container</h4>
+<p>Finally, run a Docker container in the <code>contiv-net</code> network, then launch the multicast receiver.
+```
+netplugin-node2~$ docker pull qiwang/centos7-mcast
 netplugin-node2~$ docker run -it --name=mreceiver --net=contiv-net qiwang/centos7-mcast /bin/bash
 root@426b8cdbf5f8:/# cd /root
-root@426b8cdbf5f8:/# ./mcast.py -i eth0
-
-('30.1.1.8', 35678)  '1453882966.102203'
-('30.1.1.8', 35678)  '1453882967.120764'
-('30.1.1.8', 35678)  '1453882968.12215'
-</code></pre>
+root@426b8cdbf5f8:/# ./mcast.py -i eth0</p>
+<p>(&#39;30.1.1.8&#39;, 35678)  &#39;1453882966.102203&#39;
+(&#39;30.1.1.8&#39;, 35678)  &#39;1453882967.120764&#39;
+(&#39;30.1.1.8&#39;, 35678)  &#39;1453882968.12215&#39;
+```</p>
 
 
 			</div>

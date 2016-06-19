@@ -1,7 +1,7 @@
 ---
 layout: "install"
 page_title: "Storage with Swarm"
-sidebar_current: "docs-home"
+sidebar_current: "getting-started-stor-swarm"
 description: |-
   Contiv Storage with Swarm
 ---
